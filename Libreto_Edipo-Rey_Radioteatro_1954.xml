@@ -6,20 +6,23 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>[Teatro dominical]: Edipo Rey de <persName>Sófocles</persName></title>
+            <title><name type="programadora">Radioteatro dominical</name>: <name type="obra">Edipo Rey</name> de <persName>Sófocles</persName> por <persName>Bernardo Romero Lozano</persName></title>
             <respStmt>
                <resp>Adaptación de</resp>
                <persName>Romero Lozano, Bernardo</persName>
             </respStmt>
          </titleStmt>
+
          <publicationStmt>
-            <publisher>Señal Memoria - RTVC</publisher>
+            <authority>Señal Memoria - RTVC</authority>
             <pubPlace>Bogotá</pubPlace>
-            <date>2018</date>
+            <date type="publicacion">2018</date>
+            <date type="transcripcion">2022-12-04</date>
             <availability status="free">
                <p>De dominio público. Consulta gratuita a través del sitio web www.senalmemoria.co</p>
             </availability>
          </publicationStmt>
+         
          <sourceDesc>
             <recordingStmt>
                <recording type="audio" dur="PT59M07S">
@@ -28,7 +31,7 @@
                   </equipment>
                   <broadcast>
                      <bibl>
-                        <title>Edipo Rey de <persName>Sófocles</persName></title>
+                        <title><name type="obra">Edipo Rey</name> de <persName>Sófocles</persName></title>
                         <author>Radiodifusora Nacional de Colombia</author>
                         <respStmt>
                            <resp>Adaptación radiofónica libre de </resp>
@@ -61,135 +64,138 @@
   </teiHeader>
   <text>
      <front>
-        <p>
-        Entre los programas especiales con que la Radiodifusora Nacional conmemora el décimo cuarto aniversario de su fundación, figura la audición de la magna tragedia griega
-        Edipo Rey, de Sófocles, en una versión libre para teatro radiofónico realizada por el director del grupo radioteatral de la emisora Bernardo Romero Lozano. Dicha versión comprende
-        además la partitura musical expresamente escrita por el maestro Rino Maione, profesor contratado por la Universidad Nacional para regentar cátedras de estudios mayores en el 
-        Conservatorio de Música de la misma Universidad. La partitura en cuestión será interpretada por la Orquesta Sinfónica de Colombia bajo la dirección del propio autor, e incluye 
-        además la participación de un grupo coral mixto. En cuanto al coro mismo del texto dramútico de Sófocles, que en esta versión radiofónica de la tragedia habla 
-        en forma polifónica y rítmica, se ha utilizado el arreglo para la versión dramático musical de Edipo, Rey, realizada por Jean Cocteau e Igor Stravinsky, 
-        tomada de la versión latina de J. Danielou y la alemana de L. Thurneiser, cuya traducción castellana ha hecho el afamado musicólogo y hombre de letras colombiano
-        Otto de Greiff. El adaptador por otra parte, se ha basado para su versión radiofónica de la tragedia de Sófocles en el texto español de José Alemany Bolufer, 
-        y en partes de la versión en verso de los poetas españoles Luis Fernández Ardavín y Mauricio Bacarisse.
-        </p>
-        <p>
-        Este empeño de llevar a las ondas del radio una tragedia antigua de tan altas ejecutorias en la historia dramática de todos los tiempos, tiene honrosos antecedentes 
-        en la vida artística de la Radiodifusora Nacional. El público oyente recordará que hace algunos años fue presentada -entonces por primera vez en la radiodifusión continental- 
-        una tragedia griega, el Prometeo Encadenado, de Esquilo, para la cual escribió la música incidenlal el insigne maestro colomhiano Guillermo Uribe Holg-uín. La audición 
-        de la tragedia esquiliana ha sido uno de los más significativos triunfos artísticos conquistados por la emisora Nacional de Colombia en sus años de existencia.
-        </p>
-        <p>
-        En esta ocasión, con ayuda de las experiencias adquiridas en el arte radioteatral y el invaluable apoyo de una técnica día a día evolucionada, confiamos en poder superar esfuerzos 
-        anteriores, para ofrecer al público oyente una audición de radioteatro eminente categoría cultural y artística. Esos son nuestros más fervorosos deseos.
-        </p>
-        
-        
         <performance>
            <p>
               <rs type="place">Teatro Colón</rs>, <date>1 de febrero de 1954</date>
               <castList>
                  <head>Personajes e intérpretes de la tragedia</head>
                  <castItem>
-                    <role xml:id="Ed.">Edipo</role>
-                    <actor>Guillermo Rubiano</actor>
+                    <role xml:id="Ed.">Edipo</role>:
+                    <actor><persName>Guillermo Rubiano</persName></actor>
                  </castItem>
                  
                  <castItem>
-                    <role xml:id="Yoc.">Yocasta</role>
+                    <role xml:id="Yoc.">Yocasta</role>:
                     <actor><persName>Esther Sarmiento de Correa</persName></actor>
                  </castItem>
                  
                  <castItem>
-                    <role xml:id="Cre.">Creonte</role>
+                    <role xml:id="Cre.">Creonte</role>:
                     <actor><persName>Gonzalo Vera</persName></actor>
                  </castItem>
                  
                  <castItem>
-                    <role xml:id="Tir.">Tirésias</role>
+                    <role xml:id="Tir.">Tirésias</role>:
                     <actor><persName>Leónidas Soler</persName></actor>
                  </castItem>
                  
                  <castItem>
-                    <role xml:id="Sac.">Sacerdote</role>
+                    <role xml:id="Sac.">Sacerdote</role>:
                     <actor><persName>Alejandro Salazar</persName></actor>
                  </castItem>
                  
                  <castItem>
-                    <role xml:id="Criado">Criado de Layo</role>
+                    <role xml:id="Criado">Criado de Layo</role>:
                     <actor><persName>Carlos Alfonso Muñoz</persName></actor>
                  </castItem>
                  
                  <castItem>
-                    <role xml:id="Mens.">Mensajero</role>
+                    <role xml:id="Mens.">Mensajero</role>:
                     <actor><persName>Bernardo Romero Lozano</persName></actor>
                  </castItem>
                  
                  <castItem>
-                    <role xml:id="Narr.">Narrador</role>
+                    <role xml:id="Narr.">Narrador</role>:
                     <actor><persName>Guillermo Muñoz</persName></actor>
                  </castItem>
                  
-                 <castGroup>
-                    <castItem>
-                    <role xml:id="Coro_declamado">Solitas del coro declamado</role>   
-                    <actor><persName>Carmen del Lugo</persName></actor>
-                    <actor><persName>Alicia del Carpio</persName></actor>
-                    <actor><persName>Melida de Illera</persName></actor>
-                    <actor><persName>Ana Nelba</persName></actor>
-                    <actor><persName>Gonzalo Vera</persName></actor>
-                    </castItem>
-                 </castGroup>
+                 <castItem>
+                    <role xml:id="Coro_declamado">Solitas del coro declamado</role>:   
+                    <actor><persName>Carmen del Lugo</persName></actor>,
+                    <actor><persName>Alicia del Carpio</persName></actor>,
+                    <actor><persName>Melida de Illera</persName></actor>,
+                    <actor><persName>Ana Nelba</persName></actor>,
+                    <actor><persName>Gonzalo Vera</persName></actor>,
+                 </castItem>
+                                  
+                 <castItem>
+                    <role xml:id="Coro">Coro</role>:
+                    <actor><persName>María Hernández</persName></actor>,
+                    <actor><persName>Lucia Alba</persName></actor>,
+                    <actor><persName>Gilma de Miro</persName></actor>,
+                    <actor><persName>Helena Ramírez</persName></actor>,
+                    <actor><persName>Ana Mojica</persName></actor>,
+                    <actor><persName>Juan V. Angulo</persName></actor>,
+                    <actor><persName>Fabio Camero</persName></actor>,
+                    <actor><persName>Miguel Ignacio Vanegas</persName></actor>,
+                    <actor><persName>Pablo Rodríguez</persName></actor>,
+                    <actor><persName>Bernardo Romero Pereiro</persName></actor>,
+                    <actor><persName>Álvaro Ángel</persName></actor>,
+                 </castItem>
                  
-                 <castGroup>
-                    <castItem>
-                    <role xml:id="Coro">Coro</role>
-                    <actor><persName>María Hernández</persName></actor>
-                    <actor><persName>Lucia Alba</persName></actor>
-                    <actor><persName>Gilma de Miro</persName></actor>
-                    <actor><persName>Helena Ramírez</persName></actor>
-                    <actor><persName>Ana Mojica</persName></actor>
-                    <actor><persName>Juan V. Angulo</persName></actor>
-                    <actor><persName>Fabio Camero</persName></actor>
-                    <actor><persName>Miguel Ignacio Vanegas</persName></actor>
-                    <actor><persName>Pablo Rodríguez</persName></actor>
-                    <actor><persName>Bernardo Romero Pereiro</persName></actor>
-                    <actor><persName>Álvaro Ángel</persName></actor>
-                    </castItem>
-                 </castGroup>
-                 
-                 <castGroup>
-                    <castItem>
-                    <role xml:id="Coro_cantado">Coro cantado</role>
-                    <actor><persName>Isabel Bulla</persName></actor>
-                    <actor><persName>Mercedes Camargo</persName></actor>
-                    <actor><persName>Lucia de Franco</persName></actor>
-                    <actor><persName>Marina Camargo</persName></actor>
-                    <actor><persName>Alfonso Duque</persName></actor>
-                    <actor><persName>Arturo Celi</persName></actor>
-                    <actor><persName>Jorge Yánez</persName></actor>
-                    <actor><persName>Joaquín Forero</persName></actor>
-                    <actor><persName>Julio Hernández</persName></actor>
-                    <actor><persName>Calletano de las Casas</persName></actor>
-                    <actor><persName>Alfredo Salcedo</persName></actor>
-                    <actor><persName>Eliecer Hernández</persName></actor>
-                    <actor><persName>Efraín Gómez</persName></actor>
-                    <actor><persName>Eduardo López </persName></actor>
-                    <actor><persName>Edilberto Leaño</persName></actor>
-                    </castItem>
-                 </castGroup>
+                 <castItem>
+                    <role xml:id="Coro_cantado">Coro cantado</role>:
+                    <actor><persName>Isabel Bulla</persName></actor>,
+                    <actor><persName>Mercedes Camargo</persName></actor>,
+                    <actor><persName>Lucia de Franco</persName></actor>,
+                    <actor><persName>Marina Camargo</persName></actor>,
+                    <actor><persName>Alfonso Duque</persName></actor>,
+                    <actor><persName>Arturo Celi</persName></actor>,
+                    <actor><persName>Jorge Yánez</persName></actor>,
+                    <actor><persName>Joaquín Forero</persName></actor>,
+                    <actor><persName>Julio Hernández</persName></actor>,
+                    <actor><persName>Calletano de las Casas</persName></actor>,
+                    <actor><persName>Alfredo Salcedo</persName></actor>,
+                    <actor><persName>Eliecer Hernández</persName></actor>,
+                    <actor><persName>Efraín Gómez</persName></actor>,
+                    <actor><persName>Eduardo López </persName></actor>,
+                    <actor><persName>Edilberto Leaño</persName></actor>,
+                 </castItem>
                  
               </castList>
               
            </p>
-           <p>Preparación del coro cantado por <persName>Alfredo Salcedo</persName></p>
-           <p>Técnico de control y realizador del montaje <persName>Manuel Medina Mesa</persName></p>
-           <p>Supervisión técnica de <persName>Fernando Gómez Agudelo</persName></p>
-           <p>Dirección general de <persName>Bernardo Romero Lozano</persName></p>
+           <p>Preparación del coro cantado: <persName>Alfredo Salcedo</persName></p>
+           <p>Técnico de control y realizador del montaje: <persName>Manuel Medina Mesa</persName></p>
+           <p>Supervisión técnica: <persName>Fernando Gómez Agudelo</persName></p>
+           <p>Dirección general: <persName>Bernardo Romero Lozano</persName></p>
         </performance>
       </front>
       
      <body>
         
+        <head><supplied>Transcripción de la transmisión radial de la adaptación de <name type="obra">Edipo Rey</name> por <persName>Bernardo Romero Lozano</persName>, 
+           <date when="1954">1954</date></supplied></head>
+        
+        <div type="apertura">
+           <head>Palabras de apertura</head>
+           <sp>
+              <speaker>Locutor</speaker>
+        <p>
+           Entre los programas especiales con que la Radiodifusora Nacional conmemora el décimo cuarto aniversario de su fundación, figura la audición de la magna tragedia griega
+           Edipo Rey, de Sófocles, en una versión libre para teatro radiofónico realizada por el director del grupo radioteatral de la emisora Bernardo Romero Lozano. Dicha versión comprende
+           además la partitura musical expresamente escrita por el maestro Rino Maione, profesor contratado por la Universidad Nacional para regentar cátedras de estudios mayores en el 
+           Conservatorio de Música de la misma Universidad. La partitura en cuestión será interpretada por la Orquesta Sinfónica de Colombia bajo la dirección del propio autor, e incluye 
+           además la participación de un grupo coral mixto. En cuanto al coro mismo del texto dramútico de Sófocles, que en esta versión radiofónica de la tragedia habla 
+           en forma polifónica y rítmica, se ha utilizado el arreglo para la versión dramático musical de Edipo, Rey, realizada por Jean Cocteau e Igor Stravinsky, 
+           tomada de la versión latina de J. Danielou y la alemana de L. Thurneiser, cuya traducción castellana ha hecho el afamado musicólogo y hombre de letras colombiano
+           Otto de Greiff. El adaptador por otra parte, se ha basado para su versión radiofónica de la tragedia de Sófocles en el texto español de José Alemany Bolufer, 
+           y en partes de la versión en verso de los poetas españoles Luis Fernández Ardavín y Mauricio Bacarisse.
+        </p>
+        <p>
+           Este empeño de llevar a las ondas del radio una tragedia antigua de tan altas ejecutorias en la historia dramática de todos los tiempos, tiene honrosos antecedentes 
+           en la vida artística de la Radiodifusora Nacional. El público oyente recordará que hace algunos años fue presentada -entonces por primera vez en la radiodifusión continental- 
+           una tragedia griega, el Prometeo Encadenado, de Esquilo, para la cual escribió la música incidenlal el insigne maestro colomhiano Guillermo Uribe Holg-uín. La audición 
+           de la tragedia esquiliana ha sido uno de los más significativos triunfos artísticos conquistados por la emisora Nacional de Colombia en sus años de existencia.
+        </p>
+        <p>
+           En esta ocasión, con ayuda de las experiencias adquiridas en el arte radioteatral y el invaluable apoyo de una técnica día a día evolucionada, confiamos en poder superar esfuerzos 
+           anteriores, para ofrecer al público oyente una audición de radioteatro eminente categoría cultural y artística. Esos son nuestros más fervorosos deseos.
+        </p>
+           </sp>
+           
+        </div>
+                
         <div type="act" n="1">
            <head>Parte I</head>
            <sp who="#Narr.">

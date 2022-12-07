@@ -1,70 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 body {
-  font-size: 13pt;
-  max-width: 600px;
+  font-size: 12pt;
+  max-width: 800px;
   margin: auto;
-  padding: 10px;
+  padding: 30px;
 }
 
 tei-body {
-  font-size: 13pt;
-  max-width: 600px;
+  font-size: 12pt;
+  max-width: 800px;
   margin: auto;
-  padding: 15px;
+  padding: 30px;
 }
 
 tei-head {
   display: block;
-  background-color: rgb(238, 239, 179);
+  background-color: rgb(76, 132, 138);
   text-align: center;
   font-weight: bold;
+  font-family: 'Ms Madi', cursive;
   padding: 20px;
   font-size: 140%;
   margin-bottom: 10px;
   border-width: 5px;
   border-style:groove;
-  border-color: rgb(111, 124, 209);
+  border-color: rgb(20, 92, 109);
+}
+
+tei-head tei-persname{
+  font-variant: normal;
 }
 tei-persname {
-  font-variant: small-caps;
+  font-variant:small-caps;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 tei-p {
   display: block;
   text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
-tei-div{
+
+tei-l {
   display: block;
-  padding: 15px;
-  background-color: rgb(231, 241, 212);
-  border: dotted;
+  text-align: left;
+  font-style: oblique;
+}
+
+tei-div{
+  display:inline-block;
+  padding: 25px;
+  background-color: rgb(232, 219, 204);
+  border-style:outset;
   margin-right: inset;
-  border-width: 3px;
+  border-width: 2px;
   border-color: rgb(124, 75, 11);
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 tei-div[type="manuscrito"]{
   font-family: 'Satisfy', cursive;
-  color: rgb(79, 42, 12);
+  color: rgb(77, 61, 49);
 }
 
-
-tei-div[type="impreso"]{
+tei-div[type="act"]{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 80%;
   background-color: rgb(243, 225, 202);
-}
-
-tei-persname {
-  font-variant: small-caps;
-}
-
-tei-foreign{
-  font-style: italic;
-  font-weight: bold;
-  color: rgb(135, 69, 150);
 }
 
 tei-abbr::before{
@@ -105,8 +108,14 @@ tei-lb::before {
   content: "\A";
 }
 
-tei-signed{
-  font-size: 170%;
-  font-weight: bold;
-  color: rgb(40, 127, 123);
-  font-family: 'Ms Madi', cursive;}
+tei-speaker {
+  font-variant: small-caps;
+  font-family: serif;
+}
+
+tei-sp {
+  display: block;
+  padding: 3px;
+  margin-bottom: 10px;
+  border-width: 5px;
+}
