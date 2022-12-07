@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+body {
+  font-size: 13pt;
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+}
+
+tei-body {
+  font-size: 13pt;
+  max-width: 600px;
+  margin: auto;
+  padding: 15px;
+}
+
+tei-head {
+  display: block;
+  background-color: rgb(238, 239, 179);
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 140%;
+  margin-bottom: 10px;
+  border-width: 5px;
+  border-style:groove;
+  border-color: rgb(111, 124, 209);
+}
+tei-persname {
+  font-variant: small-caps;
+}
+
+tei-p {
+  display: block;
+  text-align: left;
+}
+tei-div{
+  display: block;
+  padding: 15px;
+  background-color: rgb(231, 241, 212);
+  border: dotted;
+  margin-right: inset;
+  border-width: 3px;
+  border-color: rgb(124, 75, 11);
+  margin-bottom: 5px;
+}
+
+tei-div[type="manuscrito"]{
+  font-family: 'Satisfy', cursive;
+  color: rgb(79, 42, 12);
+}
+
+
+tei-div[type="impreso"]{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 80%;
+  background-color: rgb(243, 225, 202);
+}
+
+tei-persname {
+  font-variant: small-caps;
+}
+
+tei-foreign{
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(135, 69, 150);
+}
+
+tei-abbr::before{
+  content: "(";
+}
+
+tei-abbr::after{
+  content: ")";
+}
+
+tei-corr{
+  color: rgb(170, 140, 51);
+  font-weight: bold;
+}
+
+tei-del{
+  color: rgb(146, 58, 58);
+  text-decoration: line-through;
+}
+
+tei-add{
+  color: rgb(119, 129, 153);
+  font-weight: bold;
+}
+
+tei-gap {
+  background-color: rgb(126, 113, 113);
+  content: "x";
+}
+
+tei-gap::before{
+  content: " ";
+  white-space: pre;
+}
+
+tei-lb::before {
+  white-space: pre;
+  content: "\A";
+}
+
+tei-signed{
+  font-size: 170%;
+  font-weight: bold;
+  color: rgb(40, 127, 123);
+  font-family: 'Ms Madi', cursive;}
