@@ -1,0 +1,1417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Teatro dominical]: Edipo Rey de <persName>Sófocles</persName></title>
+            <respStmt>
+               <resp>Adaptación de</resp>
+               <persName>Romero Lozano, Bernardo</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Señal Memoria - RTVC</publisher>
+            <pubPlace>Bogotá</pubPlace>
+            <date>2018</date>
+            <availability status="free">
+               <p>De dominio público. Consulta gratuita a través del sitio web www.senalmemoria.co</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <recordingStmt>
+               <recording type="audio" dur="PT59M07S">
+                  <equipment>
+                     <p>Digital, estereofónico</p>
+                  </equipment>
+                  <broadcast>
+                     <bibl>
+                        <title>Edipo Rey de <persName>Sófocles</persName></title>
+                        <author>Radiodifusora Nacional de Colombia</author>
+                        <respStmt>
+                           <resp>Adaptación radiofónica libre de </resp>
+                           <persName>Romero Lozano, Bernardo</persName>
+                        </respStmt>
+                        <respStmt>
+                           <resp>Dirección</resp>
+                           <persName>Romero Lozano, Bernardo</persName>
+                        </respStmt>
+                        <respStmt>
+                           <resp>Música incidental</resp>
+                           <persName>Maione, Rino</persName>
+                        </respStmt>
+                        <series>
+                           <title>Radioteatro dominical</title>
+                        </series>
+                        <note>Transmitido por primera vez el <date when="1954-02-01">1 de febrero de 1954</date> en el décimo cuarto aniversario de la Radiodifusora Nacional de Colombia.</note>
+                     </bibl>
+                  </broadcast>
+               </recording>
+            </recordingStmt>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>Guión transcrito para análisis de la adaptación radioteatral para Trabajo de grado de Maestría en Estudios Clásicos, Septiembre 2022, Universidad de los Andes.
+           Se ha transcrito e identificado las diversas fuentes para construir la adaptación.</p>
+        </projectDesc>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+     <front>
+        <p>
+        Entre los programas especiales con que la Radiodifusora Nacional conmemora el décimo cuarto aniversario de su fundación, figura la audición de la magna tragedia griega
+        Edipo Rey, de Sófocles, en una versión libre para teatro radiofónico realizada por el director del grupo radioteatral de la emisora Bernardo Romero Lozano. Dicha versión comprende
+        además la partitura musical expresamente escrita por el maestro Rino Maione, profesor contratado por la Universidad Nacional para regentar cátedras de estudios mayores en el 
+        Conservatorio de Música de la misma Universidad. La partitura en cuestión será interpretada por la Orquesta Sinfónica de Colombia bajo la dirección del propio autor, e incluye 
+        además la participación de un grupo coral mixto. En cuanto al coro mismo del texto dramútico de Sófocles, que en esta versión radiofónica de la tragedia habla 
+        en forma polifónica y rítmica, se ha utilizado el arreglo para la versión dramático musical de Edipo, Rey, realizada por Jean Cocteau e Igor Stravinsky, 
+        tomada de la versión latina de J. Danielou y la alemana de L. Thurneiser, cuya traducción castellana ha hecho el afamado musicólogo y hombre de letras colombiano
+        Otto de Greiff. El adaptador por otra parte, se ha basado para su versión radiofónica de la tragedia de Sófocles en el texto español de José Alemany Bolufer, 
+        y en partes de la versión en verso de los poetas españoles Luis Fernández Ardavín y Mauricio Bacarisse.
+        </p>
+        <p>
+        Este empeño de llevar a las ondas del radio una tragedia antigua de tan altas ejecutorias en la historia dramática de todos los tiempos, tiene honrosos antecedentes 
+        en la vida artística de la Radiodifusora Nacional. El público oyente recordará que hace algunos años fue presentada -entonces por primera vez en la radiodifusión continental- 
+        una tragedia griega, el Prometeo Encadenado, de Esquilo, para la cual escribió la música incidenlal el insigne maestro colomhiano Guillermo Uribe Holg-uín. La audición 
+        de la tragedia esquiliana ha sido uno de los más significativos triunfos artísticos conquistados por la emisora Nacional de Colombia en sus años de existencia.
+        </p>
+        <p>
+        En esta ocasión, con ayuda de las experiencias adquiridas en el arte radioteatral y el invaluable apoyo de una técnica día a día evolucionada, confiamos en poder superar esfuerzos 
+        anteriores, para ofrecer al público oyente una audición de radioteatro eminente categoría cultural y artística. Esos son nuestros más fervorosos deseos.
+        </p>
+        
+        
+        <performance>
+           <p>
+              <rs type="place">Teatro Colón</rs>, <date>1 de febrero de 1954</date>
+              <castList>
+                 <head>Personajes e intérpretes de la tragedia</head>
+                 <castItem>
+                    <role xml:id="Ed.">Edipo</role>
+                    <actor>Guillermo Rubiano</actor>
+                 </castItem>
+                 
+                 <castItem>
+                    <role xml:id="Yoc.">Yocasta</role>
+                    <actor><persName>Esther Sarmiento de Correa</persName></actor>
+                 </castItem>
+                 
+                 <castItem>
+                    <role xml:id="Cre.">Creonte</role>
+                    <actor><persName>Gonzalo Vera</persName></actor>
+                 </castItem>
+                 
+                 <castItem>
+                    <role xml:id="Tir.">Tirésias</role>
+                    <actor><persName>Leónidas Soler</persName></actor>
+                 </castItem>
+                 
+                 <castItem>
+                    <role xml:id="Sac.">Sacerdote</role>
+                    <actor><persName>Alejandro Salazar</persName></actor>
+                 </castItem>
+                 
+                 <castItem>
+                    <role xml:id="Criado">Criado de Layo</role>
+                    <actor><persName>Carlos Alfonso Muñoz</persName></actor>
+                 </castItem>
+                 
+                 <castItem>
+                    <role xml:id="Mens.">Mensajero</role>
+                    <actor><persName>Bernardo Romero Lozano</persName></actor>
+                 </castItem>
+                 
+                 <castItem>
+                    <role xml:id="Narr.">Narrador</role>
+                    <actor><persName>Guillermo Muñoz</persName></actor>
+                 </castItem>
+                 
+                 <castGroup>
+                    <castItem>
+                    <role xml:id="Coro_declamado">Solitas del coro declamado</role>   
+                    <actor><persName>Carmen del Lugo</persName></actor>
+                    <actor><persName>Alicia del Carpio</persName></actor>
+                    <actor><persName>Melida de Illera</persName></actor>
+                    <actor><persName>Ana Nelba</persName></actor>
+                    <actor><persName>Gonzalo Vera</persName></actor>
+                    </castItem>
+                 </castGroup>
+                 
+                 <castGroup>
+                    <castItem>
+                    <role xml:id="Coro">Coro</role>
+                    <actor><persName>María Hernández</persName></actor>
+                    <actor><persName>Lucia Alba</persName></actor>
+                    <actor><persName>Gilma de Miro</persName></actor>
+                    <actor><persName>Helena Ramírez</persName></actor>
+                    <actor><persName>Ana Mojica</persName></actor>
+                    <actor><persName>Juan V. Angulo</persName></actor>
+                    <actor><persName>Fabio Camero</persName></actor>
+                    <actor><persName>Miguel Ignacio Vanegas</persName></actor>
+                    <actor><persName>Pablo Rodríguez</persName></actor>
+                    <actor><persName>Bernardo Romero Pereiro</persName></actor>
+                    <actor><persName>Álvaro Ángel</persName></actor>
+                    </castItem>
+                 </castGroup>
+                 
+                 <castGroup>
+                    <castItem>
+                    <role xml:id="Coro_cantado">Coro cantado</role>
+                    <actor><persName>Isabel Bulla</persName></actor>
+                    <actor><persName>Mercedes Camargo</persName></actor>
+                    <actor><persName>Lucia de Franco</persName></actor>
+                    <actor><persName>Marina Camargo</persName></actor>
+                    <actor><persName>Alfonso Duque</persName></actor>
+                    <actor><persName>Arturo Celi</persName></actor>
+                    <actor><persName>Jorge Yánez</persName></actor>
+                    <actor><persName>Joaquín Forero</persName></actor>
+                    <actor><persName>Julio Hernández</persName></actor>
+                    <actor><persName>Calletano de las Casas</persName></actor>
+                    <actor><persName>Alfredo Salcedo</persName></actor>
+                    <actor><persName>Eliecer Hernández</persName></actor>
+                    <actor><persName>Efraín Gómez</persName></actor>
+                    <actor><persName>Eduardo López </persName></actor>
+                    <actor><persName>Edilberto Leaño</persName></actor>
+                    </castItem>
+                 </castGroup>
+                 
+              </castList>
+              
+           </p>
+           <p>Preparación del coro cantado por <persName>Alfredo Salcedo</persName></p>
+           <p>Técnico de control y realizador del montaje <persName>Manuel Medina Mesa</persName></p>
+           <p>Supervisión técnica de <persName>Fernando Gómez Agudelo</persName></p>
+           <p>Dirección general de <persName>Bernardo Romero Lozano</persName></p>
+        </performance>
+      </front>
+      
+     <body>
+        
+        <div type="act" n="1">
+           <head>Parte I</head>
+           <sp who="#Narr.">
+              <speaker>Narrador</speaker>
+              <p>
+                 Noble auditorio, escucharéis una versión del Edipo Rey de Sófocles. Vuestra atención, vuestra memoria no serán forzadas.
+                 Este drama ofrece un cuadro vivo de los acontecimientos.
+              </p>
+              
+              <p>
+                 Sin tener consciencia de ello, Edipo lucha contra los poderes que amenazan desde el más allá. 
+                 En la cuna, ya Edipo lo cercaron lazos que ahora, ante vuestra atención, se estrecharán más.
+                 Y he aquí la historia brevemente narrada antes del drama. Edipo, el de los pies hinchados,
+                 fue hijo del rey Layo de Tebas quien después de haber perdido su reino lo recuperó y se unió a Yocasta. 
+                 Un oráculo le anunció a Edipo que habría de matar a su padre y unirse a su madre. 
+                 Edipo entonces se alejó de Corinto. En un cruce de caminos, riñó con Layo, desconocido para él, y lo mató. 
+                 En Tebas, el regente Creonte ofrecía el reino y la mano de su hermana Yocasta a quien librara a la ciudad 
+                 de las garras de la esfinge que daba muerte a quienes no descifraran los enigmas que propusiera. 
+                 Tebas está desmoralizada. A la esfinge ha seguido la peste. El pueblo pide a Edipo la salvación de la ciudad, 
+                 a Edipo, el vencedor de la esfinge, el amado de Tebas.
+              </p>
+           </sp>
+           
+           <spGrp>
+           <sp who="#Coro_cantado">
+              <speaker>Coro</speaker>
+              <p>
+                 Oh
+              </p>
+           </sp>
+           
+           <sp who="#Coro_declamado">
+              <speaker>Coro</speaker>
+              <p>
+                 <l>¡Edipo, Edipo, Edipo!</l>
+                 <l>La peste nos <unclear reason="inaudible"><add cause="fuente_traduccion">viene</add></unclear>, 
+                    a Tebas la peste <unclear reason="inaudible"><add cause="fuente_traduccion">la lleva</add></unclear>.</l>
+                 <l>La peste sálvanos, sálvanos.</l>
+                 <l>La peste a Tebas ya toca.</l>
+                 <l>¡Salva, salva la ciudad!</l>
+                 <l>¡Edipo, Edipo, Edipo!</l>
+                 <l>Tebas muere, Tebas muere, se muere de peste.</l>
+                 <l>De la peste salva, salva, Edipo, la urbe muriente.</l>
+                 <l>De la peste líbranos, Edipo. Libra, Edipo, la ciudad.</l>
+              </p>
+           </sp>
+           </spGrp>
+           
+           <spGrp>           
+
+           <sp who="#Ed.">
+              <speaker>Edipo</speaker>
+              <p>
+                 ¿Por qué venís apresuradamente a celebrar esta sesión, llevando en vuestras manos los ramos de los suplicantes?
+                 Habla, tú, ¡oh, anciano!, que natural es que interpretes los sentimientos de todos <subst cause="adaptacion"><del>estos</del><add>ellos</add></subst>.
+                 ¿Cuál es el motivo de la reunión? ¿Qué teméis? ¿Qué deseáis?
+              </p>
+           </sp>
+              
+           <sp who="#Sac.">
+              <speaker>Sacerdote</speaker>
+              <p>
+                 ¡Oh, poderoso Edipo, rey de mi patria!, todos estamos al pie de tus altares. 
+                 Niños que apenas pueden andar; ancianos sacerdotes encorvados por la vejez; 
+                 yo, el sacerdote de Júpiter, y éstos, que son lo más escogido entre <unclear reason="inaudible"><add cause="fuente_traduccion">juventud.
+                    La ciudad, como tú mismo ves, conmovida tan violentamente por</add></unclear> la desgracia, 
+                 no puede levantar la cabeza del fondo del sangriento torbellino que la revuelve.
+              </p>
+           </sp>
+              
+           <sp who="#Coro">
+              <speaker>Coro</speaker>
+              <l>La peste evítanos, Edipo. Libra, Edipo, la ciudad.</l>
+           </sp>
+              
+           <sp who="#Sac.">
+              <speaker>Sacerdote</speaker>
+              <p>
+                 Los fructíferos gérmenes se secan en los campos; muérense los rebaños que pacen en los prados, 
+                 y los niños en los pechos de sus madres. Ha invadido la ciudad el dios que la enciende en fiebre.
+              </p>
+           </sp>
+              
+           <sp who="#Coro">
+              <speaker>Coro</speaker>
+              <l>La peste evítanos, Edipo. Libra, Edipo, la ciudad.</l>
+           </sp>
+           
+            <sp who="#Sac.">
+               <speaker>Sacerdote</speaker>
+               <p>
+                  Allí tú fuiste nuestro libertador. Ahora, pues, ¡oh, poderosísimo Edipo!, 
+                  con los mismos felices auspicios con que entonces nos proporcionaste la bienandanza, dánosla ahora. 
+                  Siendo soberano de esta tierra, mejor es que la gobiernes bien poblada como ahora está, que no que reines en un desierto.
+                 </p>
+            </sp>
+              
+            <sp who="#Coro">
+               <speaker>Coro</speaker>
+               <l>La peste evítanos, Edipo. Libra, Edipo, la ciudad.</l>
+            </sp>
+            
+            <sp who="#Ed.">
+              <speaker>Edipo</speaker>
+              <p>
+                 ¡Dignos de lástima sois, hijos míos! Conocidos me son, no ignoro los males cuyo remedio me estáis pidiendo. 
+                 Sé bien que todos sufrís, aunque de ninguno de vosotros el sufrimiento iguala al mío. 
+                 Cada uno de vosotros siente su propio dolor y no el de otro; pero mi corazón sufre por mí, por vosotros y por la ciudad; 
+                 a mi cuñado Creonte, el hijo de Meneceo, lo envié al templo de Delfos para que se informe de los votos o sacrificios 
+                 que <subst cause="adaptacion"><del>debamos</del><add>debemos</add></subst> hacer para salvar la ciudad. Pero mirad aquí ya llega Creonte.
+              </p>
+            </sp>
+           </spGrp>
+           
+           <spGrp>
+              <sp who="#Coro">
+                 <speaker>Coro</speaker>
+                 <l>Salve, salve, Creón. Escuchamos.</l>
+                 <l>Salve, Creón. Apresúrate.</l>
+                 <l>Quienes escuchan te saludan.</l>
+                 <l>Salve, Creón, te escuchamos.</l>
+              </sp>
+              
+              <sp who="#Cre.">
+                 <speaker>Creonte</speaker>
+                 <p>
+                    El rey Apolo ordena de un modo claro que expulsemos de esta tierra al miasma que en ella se está alimentando,
+                    <subst cause="adaptacion"><del>desterrando</del><add>desterrar</add></subst> al culpable o <subst cause="adaptacion"><del>purgando</del><add>purgar</add></subst>
+                    con su muerte el asesinato cuya sangre impurifica la ciudad.
+                 </p>                 
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¿A qué hombre se refiere, ¡oh, Creonte!, al mencionar ese asesinato?
+                 </p>
+              </sp>
+              
+              <sp who="#Cre.">
+                 <speaker>Creonte</speaker>
+                 <p>
+                    Teníamos aquí, ¡oh, príncipe!, un rey llamado Layo, antes de que tú gobernases la ciudad.
+                 </p>                 
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    Lo sé, ¡oh, Creonte!, porque me lo han dicho; yo nunca lo vi.
+                 </p>
+              </sp>
+              
+              <sp who="#Cre.">
+                 <speaker>Creonte</speaker>
+                 <p>
+                    Layo se fue a consultar con el oráculo y ya no volvió a casa. Murieron todos los que con él iban, excepto uno.
+                 </p>                 
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    Sea cual fuere el que mató a Layo, es posible que también me quiera matar con la misma osadía; 
+                    de modo que cuanto haga <add cause="adaptacion">yo</add> en bien de aquél, lo hago en provecho propio. 
+                    Yo lo he de averiguar todo. <add cause="adaptacion" type="otra_traduccion">En Tebas está el asesino</add>.
+                 </p>
+              </sp>
+              
+              <sp who="#Coro">
+                 <speaker>Coro</speaker>
+                 <l>Habló el dios, te habló a ti.</l>
+                 <l>A ti el dios te lo ha dicho.</l>
+                 <l>Quienes escuchan te saludan.</l>
+                 <l>En Tebas está el asesino.</l>
+              </sp>              
+
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    Yo voy a hablar como si nada supiera de todo lo que se dice, ajeno como estoy del crimen. 
+                    Quien de vosotros conozca al hombre que asesinó a Layo, que me lo diga, pues se lo mando. 
+                    Para los que no cumplan este mandato, pido a los dioses que ni les dejen cosechar frutos de sus campos, 
+                    ni tener hijos de sus mujeres, sino que los hagan perecer en la calamidad que nos aflige 
+                    <subst cause="adaptacion"><del>o</del><add>y</add></subst> con otra peor.
+                 </p>
+              </sp>
+              
+              <sp>
+                 <speaker><unclear reason="faded">Sacerdote</unclear></speaker>
+                 <p>
+                    El esclarecido Tiresias, <add cause="adaptacion">¡oh, Edipo!,</add>lee en el porvenir, 
+                    lo mismo que el dios Febo. Si de él te aconsejas, ¡oh, rey!, podrías saber
+                    <subst cause="adaptacion"><del> la cosa</del><add>lo todo</add></subst> con certeza.
+                 </p>
+              </sp>
+                            
+           </spGrp>
+           
+           <spGrp>
+              <sp who="#Coro_declamado">
+                 <speaker>Corifeo</speaker>
+                 <p>Ya está aquí quien lo descubrirá: mira a esos que vienen con el divino vate, 
+                    único entre los hombres, en quien es ingénita la verdad.</p>
+              </sp>  
+              
+              <sp who="#Coro">
+                 <speaker>Coro</speaker>
+                 <l>La voz del vidente esperamos.</l>
+                 <l>Salve, Tiresias, salve.</l>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¡Oh, Tiresias!, que comprendes en tu entendimiento lo cognoscible y lo inefable, y lo divino у lo humano. 
+                    Aunque tu ceguera no te deja ver, bien sabes en qué ruina yace la ciudad; 
+                    y no hallé otro, sino tú, que pueda socorrerla y salvarla, ¡oh, excelso! 
+                    No desdeñes, pues, ninguno de los medios de adivinación, 
+                    ya te valgas del vuelo de las aves, ya de cualquier otro recurso, y procura tu salvación y la de la ciudad.
+                 </p>
+              </sp>
+              
+              <sp who="#Coro">
+                 <speaker>Coro</speaker>
+                 <l>¡Salve, Tiresias, vate clarísimo!</l>
+              </sp>
+              
+              <sp who="#Coro_declamado">
+                 <speaker>Mujer del coro</speaker>
+                 <l>Dinos qué dice la verdad.</l>
+              </sp>
+              
+              <sp who="#Coro_declamado">
+                 <speaker>Hombre del coro</speaker>
+                 <l>Dínoslo, vate clarísimo.</l>
+              </sp> 
+              
+              <sp who="#Coro">
+                 <speaker>Coro</speaker>
+                 <l>¡Habla, docto vidente!</l>
+              </sp>
+              
+              <sp who="#Tir.">
+                 <speaker>Tiresias</speaker>
+                 <p>
+                    ¡Bah! ¡Cuán funesto es el saber cuando no proporciona ningún provecho al sabio!
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¡Por los dioses! No rehúses decirnos todo lo que sabes.
+                 </p>
+              </sp>
+              
+              <sp who="#Tir.">
+                 <speaker>Tiresias</speaker>
+                 <p>
+                    Ni quiero afligirme ni afligirte. ¿Por qué, pues, me preguntas en vano? De mí nada sabrás.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¿Quién no se irritará al oír esas palabras con las que manifiestas el desprecio que haces de la ciudad?
+                 </p>
+              </sp>
+              
+              <sp who="#Tir.">
+                 <speaker>Tiresias</speaker>
+                 <p>
+                    Eso que deseas saber ya vendrá, aunque yo lo calle.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    Oh, si no estuvieras ciego, afirmaría que tú solo has cometido el asesinato.
+                 </p>
+              </sp>
+              
+              <sp who="#Tir.">
+                 <speaker>Tiresias</speaker>
+                 <p>
+                    Tú eres un desdichado al lanzarme esos insultos, que no hay nadie entre éstos que pronto no los haya de volver contra ti.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¿Son de Creonte o tuyas estas maquinaciones?
+                 </p>
+              </sp>
+              
+              <sp who="#Tir.">
+                 <speaker>Tiresias</speaker>
+                 <p>
+                    Ningún daño te ha hecho Creonte, sino tú mismo.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¡Oh, riqueza y realeza y arte de gobernar, el más difícil de todos en esta vida agitada por la envidia! 
+                    El fiel Creonte, amigo desde el principio, conspira en secreto contra mí <gap reason="background_noise"></gap>.
+                 </p>
+              </sp>
+              
+              <sp who="#Tir.">
+                 <speaker>Tiresias</speaker>
+                 <p>
+                    Aunque tú seas rey, te contestaré lo mismo que si fuera tu igual, pues derecho tengo a ello. 
+                    No soy esclavo tuyo, sino de Apolo; de modo que el patronato de Creonte para nada lo he menester. 
+                    Y voy a hablar, porque me has injuriado llamándome ciego. Tú tienes muy buena vista y no ves el abismo de males en que estás sumido, 
+                    ni conoces el palacio en que habitas, ni los seres con quienes vives. ¿Sabes, por ventura, de quién eres hijo? 
+                    Tú no te das cuenta de que eres un ser odioso a todos los individuos de tu familia, tanto a los que han muerto como a los que viven; 
+                    ni de la maldición de tu padre y de tu madre, que en su horrible acometida te acosa ya por todas partes, 
+                    te <subst cause="adaptacion"><del>arrojará</del><add>arroja</add></subst> de esta tierra, donde si ahora ves luz, luego no verás más que tinieblas.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    Vete ya, que tu presencia me embaraza; y lejos de aquí, no me atormentarás.
+                 </p>
+              </sp>
+              
+              <sp who="#Tir.">
+                 <speaker>Tiresias</speaker>
+                 <p>
+                    Me voy, pero diciendo antes aquello por lo que fui llamado, sin temor a tu mirada; 
+                    que no tienes poder para quitarme la vida. Así, pues, te digo: Ese hombre que buscas y a quien amenazas y pregonas como asesino de Layo, 
+                    ése, <add cause="adaptacion">ése</add> está aquí. Privado de la vista y caído de la opulencia en la pobreza, 
+                    con un bastón que le indique el camino se expatriará hacia extraña tierra. 
+                    Él mismo se reconocerá a la vez hermano y padre de sus propios hijos; hijo y marido de la mujer que lo
+                    <subst cause="adaptacion"><del>parió</del><add>fecundó</add></subst>, y comarido y asesino de su padre.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    No sabía que dijeras tantas necedades; que a saberlo no me hubiera apresurado a llamarte a mi palacio.
+                 </p>
+                 <p>
+                    Lacayo eres Tiresias y he de desbaratar tus planes urdidos con Creonte.
+                 </p>
+                 
+                 <p>
+                    ¿Quién los salvó de la esfinge? ¿Quién? <gap reason="background_noise"></gap>
+                    Lo digo <gap reason="background_noise"></gap> fui yo, clarísimo Edipo, 
+                    porque la envidia <unclear reason="inaudible">ahoga</unclear> la fortuna a este rey urdir desea, a vuestro rey, Edipo. 
+                 </p>
+                 
+              </sp>
+              
+              <sp who="#Coro">
+                 <speaker>Coro</speaker>
+                 <l><gap reason="inaudible"></gap></l>
+                 <l>A Tebas la peste la <unclear reason="inaudible">lleva</unclear>.</l>
+                 <l>De la peste, sálvanos, sálvanos.</l>
+                 <l>La peste que a Tebas <unclear reason="inaudible">azota</unclear>.</l>
+                 <l>Salva, salva la ciudad.</l>
+                 <l>Salva, Edipo, la urbe muriente.</l>
+                 <l>¡Edipo, Edipo, Edipo!</l> 
+              </sp>              
+           </spGrp>
+        </div>
+        
+        <div type="act" n="2">
+           <head>Parte II</head>
+           <sp who="#Narr.">
+              <speaker>Narrador</speaker>
+              <p>
+                 Las palabras del adivino ciego Tiresias han provocado la lucha entre Edipo y él. Edipo increpa a traición a su cuñado.
+                 Las palabras airadas de los príncipes atraen a la reina Yocasta. Ahora oiréis cómo ella los exhorta para apaciguarlos, 
+                 cómo los incita a que cesen sus ridículas arengas en la pestilente Tebas.
+              </p>
+           </sp>
+           
+           <spGrp>
+              <sp who="#Coro">
+                 <speaker>Coro</speaker>
+                 <l>¡Gloria, gloria, gloria!</l>
+                 <l><gap reason="inaudible"></gap>.</l>
+                 <l>¡Gloria, gloria, gloria!</l>
+              </sp>
+              
+              <sp who="#Yoc.">
+                 <speaker>Yocasta</speaker>
+                 <p>
+                    ¿Cómo, desdichados, habéis suscitado tan imprudente disputa? 
+                    ¿No os avergonzáis de remover vuestros odios particulares en medio del abatimiento en que se halla la ciudad?
+                 </p>
+              </sp>
+              
+              <sp who="#Coro">
+                 <speaker>Coro</speaker>
+                 <l>¡Salve, salve, la esposa de Edipo!</l>
+                 <l>¡Gloria, gloria, gloria!</l>
+              </sp>
+              
+              <sp who="#Yoc.">
+                 <speaker>Yocasta</speaker>
+                 <p>
+                    Dime, por los dioses, rey, qué es lo que te ha puesto encolerizado.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    Te diré, mujer; pues te respeto, el complot que Creonte ha urdido contra mí. Dice que yo soy el asesino de Layo.
+                 </p>
+              </sp>
+              
+              <sp who="#Yoc.">
+                 <speaker>Yocasta</speaker>
+                 <p>
+                    ¿Lo ha inquirido por sí mismo o lo ha sabido por otro?
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    De un miserable adivino que me ha enviado; pues él personalmente no me acusa.
+                 </p>
+              </sp>
+              
+              <sp who="#Yoc.">
+                 <speaker>Yocasta</speaker>
+                 <p>
+                    Escúchame y verás cómo ningún mortal que posea el arte de la adivinación tiene que ver nada contigo. 
+                    Te daré una prueba de esto en pocas palabras. Un oráculo que procedía, no diré que del mismo Febo sino de alguno de sus ministros, 
+                    predijo a Layo que su destino era morir a manos de un hijo que tendría de mí. Pero Layo, según es fama, 
+                    murió asesinado por unos bandidos extranjeros en un paraje en que se <subst cause="adaptacion"><del>cruzaban</del><add>cruzan</add></subst> tres caminos; 
+                    respecto del niño, <add cause="adaptacion">mi hijo y de Layo,</add> no tenía aún tres días cuando su padre lo ató
+                    a los pies y lo entregó a manos extrañas para que lo arrojaran en un monte intransitable. 
+                    Ahí tienes, pues, cómo ni Apolo dio cumplimiento a su oráculo, ni el hijo fue asesino de su padre, 
+                    ni a Layo atormentó más la terrible profecía de que había de morir a manos de su hijo.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    Oh, mujer, desde el momento en que te he escuchado, divaga mi espíritu y me tiembla el corazón.
+                 </p>
+              </sp>
+              
+              <sp who="#Yoc.">
+                 <speaker>Yocasta</speaker>
+                 <p>
+                    ¿Qué te pasa, Edipo? ¿En qué piensas?
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    Dime cuál era el aspecto de Layo y la edad que tenía.
+                 </p>
+              </sp>
+              
+              <sp who="#Yoc.">
+                 <speaker>Yocasta</speaker>
+                 <p>
+                    Era alto; las canas empezaban ya a blanquearle la cabeza y su fisonomía no desemejaba mucho de la tuya.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¡Desdichado de mí! ¿Viajaba solo o llevaba gran escolta, como convenía a un rey?
+                 </p>
+              </sp>
+              
+              <sp who="#Yoc.">
+                 <speaker>Yocasta</speaker>
+                 <p>
+                    Cinco eran en conjunto, y entre ellos un heraldo. Un coche sólo llevaba a Layo.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¿Quién es el que os dio estas noticias, mujer?
+                 </p>
+              </sp>
+              
+              <sp who="#Yoc.">
+                 <speaker>Yocasta</speaker>
+                 <p>
+                    Un criado, que fue el único que se salvó.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¿Y se encuentra ahora en palacio?
+                 </p>
+              </sp>
+              
+              <sp who="#Yoc.">
+                 <speaker>Yocasta</speaker>
+                 <p>
+                    No, porque cuando a su vuelta de allí te vio en el trono y a Layo muerto, 
+                    me suplicó que le enviara al campo a apacentar los ganados, 
+                    para vivir lo más lejos posible de la ciudad.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¿Cómo haremos que venga lo más pronto posible?
+                 </p>
+              </sp>
+              
+              <sp who="#Yoc.">
+                 <speaker>Yocasta</speaker>
+                 <p>
+                    Vendrá, pues; pero también soy merecedora de saber las cosas que te inquietan, ¡oh, rey!
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¿A quién mejor que a ti podré yo contar el trance en que me hallo? Mi padre fue Pólibo el corintio, 
+                    y mi madre la doria Mérope. En un banquete, un hombre que había bebido demasiado me dijo en su borrachera que yo era hijo fingido de mi padre. 
+                    Apesadumbrado yo por la injuria, pregunté por ello a mi padre y a mi madre. Las palabras de ambos me sosegaron; 
+                    pero, sin embargo, me escocía siempre aquel reproche, que había penetrado <unclear reason="inaudible"><add cause="fuente_traduccion">hasta el fondo de mi corazón. 
+                       Sin que supieran nada mis padres me fui a Delfos,</add></unclear> donde Febo me rechazó, sin creerme digno de obtener contestación a las preguntas que le hice; 
+                    pero me reveló los males más afrentosos, terribles y funestos, diciendo que yo me había de casar con mi madre, 
+                    con la cual engendraría una raza odiosa al género humano; y también que yo sería el asesino del padre que me engendró.
+                    De este lugar donde jamás viera el cumplimiento de las atrocidades que de mí vaticinó el oráculo. 
+                    Pero en mi marcha llegué al sitio en que tú dices que mataron al tirano Layo. Cuando ya me hallaba yo cerca de esa encrucijada, 
+                    un heraldo y un hombre de las señas que tú me has dado, el cual iba en un coche tirado por jóvenes caballos, toparon conmigo. 
+                    El cochero y el mismo anciano me empujaron violentamente, el anciano al ver que yo pasaba por el lado del coche me infirió 
+                    dos heridas con el aguijón en medio de la cabeza. No pagó él de la misma manera; 
+                    porque del golpe que le di con el bastón que llevaba en la mano, cayó rodando del medio del coche, 
+                    quedando en el suelo boca arriba: en seguida los maté a todos.
+                 </p>
+                 
+                 <p>
+                    Has dicho que <subst cause="adaptacion"><del>él</del><add>tu criado</add></subst> manifestó que lo mataron unos ladrones 
+                    <add cause="adaptacion">a Layo</add>. Y dice que lo mató un solo hombre, claro está ya que ese crimen recae sobre mí.
+                 </p>
+              </sp>
+              
+              <sp who="#Yoc.">
+                 <speaker>Yocasta</speaker>
+                 <p>
+                    Pues sabes que públicamente y en total declaración y aun cuando se apartara un poco de su declaración anterior,
+                    nunca, jamás, ¡oh, rey!, probaría que tú seas el matador de Layo, quien, según el oráculo de Apolo, 
+                    debía morir a manos del hijo que tuviera de mí. Y claro está que no pudo matarlo aquel hijo desdichado, 
+                    porque murió antes que él. De modo que ni en este caso ni en ningún otro que en adelante ocurra, he de prestar fe a ningún oráculo.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    Muy bien has discurrido; pero, sin embargo, envía a llamar al pastor; no difieras esto.
+                 </p>
+              </sp>
+
+              <sp who="#Yoc.">
+                 <speaker>Yocasta</speaker>
+                 <p>
+                    Voy a enviar en seguida; pero entremos en palacio, que nada haré que no sea de tu gusto, <add cause="adaptacion">oh, rey.</add>
+                 </p>
+              </sp>
+           </spGrp>
+           
+           <spGrp>
+              <sp who="#Coro">
+                 <speaker>Coro</speaker>
+                 <l>¡Gloria, gloria, gloria!</l>
+                 <l>A ti, reina Yocasta,</l>
+                 <l>En Tebas pestilente.</l>
+                 <l>¡Gloria, gloria, gloria!</l>
+                 <l>En Tebas pestilente,</l>
+                 <l>Gloria, reina nuestra.</l>
+                 <l>Salve, salve, esposa de Edipo.</l>
+                 <l>¡Gloria, gloria, gloria!</l>
+                 <l>¡Gloria, gloria, gloria!</l>
+              </sp>
+           </spGrp>
+           
+           <spGrp>
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¡Oh, queridísima esposa mía Yocasta!, ¿A qué me llamas con tanta urgencia? ¿Quién es éste y qué me quiere decir?
+                 </p>
+              </sp>
+              
+              <sp who="#Yoc.">
+                 <speaker>Yocasta</speaker>
+                 <p>
+                    Viene de Corinto para anunciarte que tu padre Pólibo ya no existe, sino que ha muerto.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¿Cómo? ¿Violentamente o por enfermedad?
+                 </p>
+              </sp>
+              
+              <sp who="#Mens.">
+                 <speaker>Mensajero</speaker>
+                 <p>
+                    El menor contratiempo mata a los ancianos.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    Oh, esposa mía, él muerto ya reposa bajo tierra; y yo, que aquí estoy, no soy el que lo ha matado.
+                 </p>
+              </sp>
+           
+              <sp who="#Yoc.">
+                 <speaker>Yocasta</speaker>
+                 <p>
+                    Pues gran descanso es la muerte de tu padre.
+                 </p>
+              </sp>
+           
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    Grande, lo confieso; pero por la que vive, temo.
+                 </p>
+              </sp>
+           
+              <sp who="#Mens.">
+                 <speaker>Mensajero</speaker>
+                 <p>
+                    ¿Cuál es esa mujer por la que temes?
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    Me profetizó Apolo, oh, anciano, hace tiempo que mi destino era casarme con mi propia madre y derramar con mis manos la sangre de mi padre.
+                 </p>
+              </sp>
+              
+              <sp who="#Yoc.">
+                 <speaker>Yocasta</speaker>
+                 <p>
+                    ¿Y sabes que no hay razón ninguna para que temas ir a Corinto a ocupar el trono de Polibo?
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¿Cómo no, si <add cause="adaptacion">son</add> ellos <add cause="adaptacion">, Mérope y Pólibro,</add>los padres que me engendraron?
+                 </p>
+              </sp>
+              
+              <sp who="#Mens.">
+                 <speaker>Mensajero</speaker>
+                 <p>
+                    Pólibo no tenía ningún parentesco contigo.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¿Qué has dicho? ¿Pólibo no me engendró?
+                 </p>
+              </sp>
+              
+              <sp who="#Mens.">
+                 <speaker>Mensajero</speaker>
+                 <p>
+                    Te encontré <add cause="adaptacion">yo mismo</add> en las cañadas del Citerón.
+                       Y yo mismo te llevé a manos de Pólibo que te amó <gap reason="inaudible"></gap>.
+                    Cuando te desaté tenias atravesadas las puntas <unclear reason="faded"><add cause="fuente_traduccion">de los pies</add></unclear>.
+                    Como que por eso se te puso el nombre que tienes, Edipo, el de los pies hinchados.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¡Por los dioses, habla!
+                 </p>
+              </sp>
+              
+              <sp who="#Mens.">
+                 <speaker>Mensajero</speaker>
+                 <p>
+                    Te recibí <add cause="adaptacion">de manos</add> de otro pastor <add cause="adaptacion">que</add> se decía que era uno de los criados de Layo.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¿Vive aún ese pastor para que yo pueda verlo?
+                 </p>
+              </sp>
+              
+              <sp who="#Yoc.">
+                 <speaker>Yocasta</speaker>
+                 <p>
+                    ¡Ay, ay, infortunado!
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    Llama al pastor <gap reason="faded"></gap>
+                 </p>
+              </sp>
+              
+              <sp who="#Yoc.">
+                 <speaker>Yocasta</speaker>
+                 <p>
+                    ¡Ay, ay, desventurado!, que eso es lo único que puedo decirte, porque en adelante no te hablaré ya más.
+                 </p>
+              </sp>
+           </spGrp>
+           
+           <spGrp>
+              <sp who="#Coro">
+                 <speaker>Coro</speaker>
+                 <l>He aquí al pastor omnisciente,</l>
+                 <l>Nuncio de cosas espantables.</l>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    creo ver al pastor que hace tiempo buscamos. Reconozco como siervos míos a los que lo <subst cause="adaptacion"><del>llevan</del><add>traen</add></subst>.
+                    Pero tú que lo has conocido, mejor que yo podrás decirlo pronto al verlo delante de ti.
+                 </p>
+              </sp>
+              
+              <sp who="#Coro">
+                 <speaker>Coro femenino</speaker>
+                 <l>He aquí al pastor omnisciente,</l>
+                 <l>Nuncio de cosas espantables.</l>
+              </sp>
+              <sp who="#Coro">
+                 <speaker>Coro masculino</speaker>
+                 <l>El pastor, el pastor omnisciente.</l>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    A ti me dirijo primero, extranjero corintio. ¿Te referías a este hombre?
+                 </p>
+              </sp>
+              
+              <sp who="#Mens.">
+                 <speaker>Mensajero</speaker>
+                 <p>
+                    A ese mismo que estás viendo.                    
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    Tú, anciano; aquí, cara a cara, contéstame a todo lo que te pregunte ¿Fuiste tú de Layo?
+                 </p>
+              </sp>
+              
+              <sp who="#Criado">
+                 <speaker>Criado de Layo</speaker>
+                 <p>
+                    Sí; esclavo no comprado, sino nacido en casa.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    Y a este hombre, ¿recuerdas si lo has visto alguna vez?
+                 </p>
+              </sp>
+              
+              <sp who="#Criado">
+                 <speaker>Criado</speaker>
+                 <p>
+                    No te lo puedo decir en este momento; no recuerdo.
+                 </p>
+              </sp>
+              
+              <sp who="#Mens.">
+                 <speaker>Mensajero</speaker>
+                 <p>
+                    No es de admirar, señor; pero yo le haré recordar claramente lo que ha olvidado; 
+                    pues yo sé muy bien que él se acuerda de cuando en los prados del Citerón apacentaba él dos rebaños y yo uno solo, 
+                    ¿es o no verdad esto que digo?
+                 </p>
+              </sp>
+              
+              <sp who="#Criado">
+                 <speaker>Criado</speaker>
+                 <p>
+                    Dices verdad, aunque ha pasado mucho tiempo.
+                 </p>
+              </sp> 
+             
+              <sp who="#Mens.">
+                 <speaker>Mensajero</speaker>
+                 <p>
+                    Dime, pues, ahora: ¿sabes que entonces me entregaste un niño para que yo lo criase como si fuera hijo mío?
+                 </p>
+              </sp>
+              
+              <sp who="#Criado">
+                 <speaker>Criado</speaker>
+                 <p>
+                    ¿Y qué? ¿Por qué haces ahora esa pregunta?
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    Tú no quieres hablar de buen grado, pero hablarás a la fuerza.
+                 </p>
+              </sp>
+              
+              <sp who="#Criado">
+                 <speaker>Criado</speaker>
+                 <p>
+                    Por los dioses, señor, no insultes a este anciano.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    Atadle en seguida las manos por detrás de la espalda.
+                 </p>
+              </sp>
+              
+              <sp who="#Criado">
+                 <speaker>Criado</speaker>
+                 <p>
+                    ¡Infortunado! ¿Para qué? ¿Qué quieres saber?
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¿De dónde recogiste al niño? ¿Era tuyo o de otro?
+                 </p>
+              </sp>
+              
+              <sp who="#Criado">
+                 <speaker>Criado</speaker>
+                 <p>
+                    No, por los dioses, señor, no me preguntes más.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    Muerto eres, si tengo que repetirte la pregunta.
+                 </p>
+              </sp>
+              
+              <sp who="#Criado">
+                 <speaker>Criado</speaker>
+                 <p>
+                    Pues había nacido en el palacio de Layo.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¿Era siervo o hijo legítimo de aquél?
+                 </p>
+              </sp>
+              
+              <sp who="#Criado">
+                 <speaker>Criado</speaker>
+                 <p>
+                    De aquél se decía que era hijo; pero la que está en palacio, tu mujer, te dirá mejor que yo cómo fue todo esto.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¿Es que fue ella misma la que te lo entregó?
+                 </p>
+              </sp>
+              
+              <sp who="#Criado">
+                 <speaker>Criado</speaker>
+                 <p>
+                    Sí, rey.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¿Y para que?
+                 </p>
+              </sp>
+              
+              <sp who="#Criado">
+                 <speaker>Criado</speaker>
+                 <p>
+                    Para que lo matara...
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    —¿Y lo había <subst cause="adaptacion"><del>parido</del><add>engendrado</add></subst> la infeliz?
+                 </p>
+              </sp>
+              
+              <sp who="#Criado">
+                 <speaker>Criado</speaker>
+                 <p>
+                    ...por temor de funestos oráculos.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¿Cuáles?
+                 </p>
+              </sp>
+              
+              <sp who="#Criado">
+                 <speaker>Criado</speaker>
+                 <p>
+                    Se decía que él había de matar a sus padres.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    —¿Y cómo se lo entregaste este <subst cause="adaptacion"><del>viejo</del><add>anciano</add></subst>?
+                 </p>
+              </sp>
+              
+              <sp who="#Criado">
+                 <speaker>Criado</speaker>
+                 <p>
+                    Me compadecí, señor, creyendo que se lo llevaría a tierra extraña, a la patria de donde él era. 
+                    Pero éste lo conservó para los mayores males; porque si eres ese a quien éste se refiere, 
+                    considérate el más infortunado de los hombres.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¡Ay, ay! Ya está todo aclarado. ¡Oh, luz!, sea éste el último día que te vea quien vino al mundo engendrado 
+                    por quienes no debían haberle dado el ser, contrajo <unclear reason="inaudible"><add cause="fuente_traduccion"></add>relaciones</unclear> 
+                    con quienes le estaban prohibidas y mató a quien no debía.
+                 </p>
+              </sp>
+              
+           </spGrp>
+           
+           <spGrp>
+              
+              <sp who="#Coro">
+                 <speaker>Coro</speaker>
+                 <l>Muerto Pólibo</l>
+                 <l>Muerto el anciano Pólibo.</l>
+                 <l>No fue de Edipo genitor,</l>
+                 <l>No lo fue, no lo fue.</l>
+                 <l>Padre falso por ti <unclear reason="faded"><add>no</add></unclear> lo fue.</l>
+              </sp>
+              
+              <sp who="#Coro">
+                 <speaker>Voz masculina</speaker>
+                 <l>—Un alto dios genitor fue de Edipo con ninfa de bosque</l>
+                 <l><unclear reason="inaudible">duras nuevas contrarias</unclear></l>
+                 <l><gap reason="faded"></gap> sueño que urge, con paso presuroso,</l>
+                 <l>Su pena ejemplar, rey desventurado.</l>
+                 <l>Le fuerza a <gap reason="faded"></gap> al afortunado</l>
+                 <l>Estando muy bajo con frío y trabajo</l>
+                 <l>Llegaste a la cima que el <unclear reason="inaudible">contento</unclear> anima</l>
+              </sp>
+              
+              <sp who="#Coro">
+                 <speaker>Voz femenina</speaker>
+                 <l>El monstruo venciste las garras en <unclear reason="inaudible">dudas</unclear></l>
+                 <l>Del enigma triste libraste a las dudas.</l>
+              </sp>
+              
+              <sp who="#Coro">
+                 <speaker>Voz masculina</speaker>
+                 <l>Como torres nuevas tu frío <unclear reason="inaudible">saldado</unclear>,</l>
+                 <l>Salvación a Tebas en donde has reinado.</l>
+              </sp>
+              
+              <sp who="#Coro">
+                 <speaker>Voz femenina</speaker>
+                 <l>Y ahora habrá que <unclear reason="inaudible">darle de</unclear> algún miserable que sufra igual pena que tú.</l>
+                 <l>Habrá condena que iguale al abismo <unclear reason="inaudible">que presagia el</unclear> crimen.</l>
+                 <l>En que a un tiempo mismo <unclear reason="inaudible">le ha sido libre</unclear></l>
+                 <l>En un vientre te ha hecho hijo, padre, esposo,</l>
+                 <l><unclear reason="inaudible">como anuncia el lecho que</unclear> otorgó reposo.</l>
+              </sp>
+              
+              <sp who="#Coro">
+                 <speaker>Coro</speaker>
+                 <l>El hijo de Layo y Yocasta.</l>
+              </sp>
+           </spGrp>
+        </div>
+        
+        <div type="act" n="3">
+           <head>Parte III</head>
+           
+           <spGrp>
+              <sp who="#Narr.">
+                 <speaker>Narrador</speaker>
+                 <p>Un mensajero viene a anunciar al pueblo de Tebas, nuevas y más tremendas desdichas. 
+                    El rey está aniquilado. Quiere que todos sepan que es él el asesino maldito. El parricida. El delirante.</p>
+              </sp>
+           </spGrp>
+           
+           <spGrp>
+              <sp who="#Mens.">
+                 <speaker>Mensajero</speaker>
+                 <p>
+                    Oh, vosotros, que fuiste de esta tierra favorecidos siempre
+                    Cómo <unclear reason="inaudible">veis</unclear> de gemir y qué sucesos vais a ver y a escuchar.                    
+                 </p>
+              </sp>
+              
+              <sp who="#Coro">
+                 <speaker>Coro</speaker>
+                 <l>Qué nos vienes a anunciar.</l>
+              </sp>
+              
+              <sp who="#Mens.">
+                 <speaker>Mensajero</speaker>
+                 <p>
+                    Una desgracia. Lo diré brevemente. Yocasta ha muerto.
+                 </p>
+              </sp>
+              
+              <sp who="#Coro">
+                 <speaker>Coro</speaker>
+                 <l>Oh, desventurada. ¿Quién ha sido la causa de su muerte?</l>
+              </sp>
+              
+              <sp who="#Mens.">
+                 <speaker>Mensajero</speaker>
+                 <p>
+                    Ella misma. Cuando desesperada de dolor penetró en el vestíbulo. Se fue a la alcoba <unclear reason="inaudible">nupcial</unclear>. 
+                    Con ambas manos se <unclear reason="inaudible">mesaba</unclear> en su cabello. 
+                    Luego que entró en la <unclear reason="inaudible">cámara</unclear><gap reason="inaudible"></gap> invocó a Layo muerto
+                    <unclear reason="inaudible">ya hace un tiempo</unclear><gap reason="inaudible"></gap> aquella unión de que le sentenciaba el que a su propio padre hubiera muerto.
+                    El rey que aún estaba corriendo de un lado para otro, buscaba a su mujer, que no lo era, sino era a la vez, 
+                    era su madre y era también la madre de sus hijos.
+                 </p>
+                 
+                 <p>
+                    Algún sueño divino le <unclear reason="inaudible">informó</unclear> y entonces entre gritos espantosos, cual si viera de pronto la verdad, 
+                    saltó de repente contra las dobles puertas, arrancándolas de los profundos goznes y se precipitó en el momento donde Yocasta apareció sin vida
+                    <gap reason="faded"></gap> ahorcada.
+                    Al verla así, tembló de horror Edipo. Soltó la cuerda y al venir al suelo la desgraciada sucedió la cosa más horrible. 
+                    Después de haber arrancado del traje de Yocasta los broches de oro, se sacó los ojos con ellos prometiendo que no vería más los espantosos males que
+                    <unclear reason="inaudible">ocurrió</unclear> y las <unclear reason="inaudible">desdichas</unclear> que <unclear reason="inaudible">causaba su mal</unclear>.
+                 </p>
+                 
+                 <p>
+                    Y que sumido por siempre en las tinieblas no vería tampoco a quienes él jamás quería ver ni más contemplarían aquellos que anunciaba contemplar.
+                    <unclear reason="inaudible">En llanto</unclear> se quejaba, hería cada vez con más <unclear reason="inaudible">encodo</unclear>
+                    en los abiertos ojos sin cerrar los párpados <gap reason="faded"></gap>. 
+                    Le corría un reguero de sangre por el rostro y lo que fueron ojos de sus órbitas como un torrente oscuro le emanaba. 
+                    Y el hado venturoso llevó hasta ayer el nombre del <unclear reason="inaudible">orgullo</unclear>. 
+                    Desde ayer no hay un mal del que él carezca, que llame cual que llame, crimen, llanto, vergüenza, muerte, oprobio y desventura.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¡Ay, ay! ¡Ay, ay! ¡Infeliz de mí! ¿Dónde estoy con mi desdicha? ¿Adónde vuela mi vibrante voz? ¡Oh, demonio! ¿Dónde me has precipitado?
+                 </p>
+              </sp>
+              
+              <sp who="#Coro">
+                 <speaker>Coro</speaker>
+                 <l>Oh, qué espantosa la miseria humana.</l>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¡Oh, Citerón!, ¿por qué me recibiste? ¿Por qué, al acogerme, no me mataste en seguida, para que jamás hubiera manifestado a los hombres de dónde
+                    <unclear reason="background_noise"><add cause="fuente_traduccion">había nacido?</add></unclear> ¡Oh, Pólibo! ¡Oh, Corinto y venerable palacio que yo creía de mi padre! 
+                    Cómo criasteis en mí una hermosura que no era más que envoltura de maldades! ¡por los dioses!, echadme, ocultadme en alguna parte; 
+                    matadme o arrojadme al mar, donde jamás me podáis ver.
+                 </p>
+              </sp>
+              
+              <sp who="#Coro_declamado">
+                 <speaker>Corifeo</speaker>
+                 <p>
+                    muerta está la divina cabeza de Yocasta
+                 </p>
+              </sp>
+              
+              <sp who="#Coro">
+                 <speaker>Coro</speaker>
+                 <l>Sangre, sangre sombría <unclear reason="inaudible">resbala</unclear></l>
+                 <l>Sangre negra, sangre oscura la tierra recibe.</l>
+              </sp>
+              
+              <sp who="#Mens.">
+                 <speaker>Mensajero</speaker>
+                 <p>
+                    Edipo llora y se maldice, <unclear reason="inaudible">a grandes voces</unclear> se maldice.
+                 </p>
+              </sp>
+              
+              <sp who="#Coro">
+                 <speaker>Coro</speaker>
+                 <l>Sangre oscura la tierra recibe.</l>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    De mis hijos varones, oh, Creonte, no tengas cuidado, hombres son; pero sí de mis dos hijas, infortunadas y dignas de lástima. 
+                    ¿Dónde estáis, oh, hijas? Venid aquí; llegaos a estas mis manos, hermanas vuestras, que han puesto así como veis los ojos,
+                    antes tan brillantes, del padre que os engendró; para vosotras, sin saberlo ni inquirirlo aparecí, 
+                    como sembrador en el mismo campo en que yo fui sembrado. ¡Oh, hijas! que donde se os presente la ocasión de vivir, 
+                    alcancéis mejor vida que el padre que os ha engendrado.
+                    Oh, Creonte, llévame, pues, de aquí ya.
+                 </p>
+              </sp>
+              
+              <sp who="#Cre.">
+                 <speaker>Creonte</speaker>
+                 <p>Sigue, <subst cause="adaptacion"><del>pues</del><add>Edipo</add></subst>, y apártate de las niñas.
+                 </p>
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    De ninguna manera las apartes de mí.
+                 </p>
+              </sp>
+              
+              <sp who="#Cre.">
+                 <speaker>Creonte</speaker>
+                 <p>
+                    En todo no quieras disponer; porque aquello en que has dispuesto no resultó bien para tu vida.
+                 </p>
+              </sp>
+              
+              <sp who="#Coro">
+                 <speaker>Coro</speaker>
+                 <l>Mirad al rey Edipo.</l>
+                 <l>En pena monstruoso,</l>
+                 <l>Su cruel infortunio.</l>
+                 <l>Edipo el rey enceguecido,</l>
+                 <l>Rey parricida, mísero Edipo,</l>
+                 <l>Adivino de enigmas, ciego, ciego, ciego.</l>                 
+              </sp>
+              
+              <sp who="#Ed.">
+                 <speaker>Edipo</speaker>
+                 <p>
+                    ¡Oh, habitantes de Tebas! ¡Considerad aquel Edipo que adivinó los famosos enigmas <add cause="adaptacion">de la esfinge</add> 
+                    y fue el hombre más poderoso, a quien no había ciudadano que no envidiara al verle en la dicha, en qué borrasca de terribles desgracias está envuelto! 
+                    Así que, siendo <subst cause="adaptacion"><del>mortal</del><add>mortales</add></subst>, 
+                    <subst cause="adaptacion"><del>debes</del><add>debeis</add></subst> pensar con la consideración puesta siempre en el último día, 
+                    y no juzgar feliz a nadie antes de que llegue al término de su vida sin haber sufrido ninguna desgracia. 
+                 </p>
+              </sp>
+              
+              <sp who="#Coro">
+                 <speaker>Coro</speaker>
+                 <l>Rey Edipo, la luz de tus ojos lloramos.</l>
+                 <l>Rey Edipo, rey Edipo, Edipo</l>
+                 <l>¡Edipo!</l>
+              </sp>
+           </spGrp>
+        </div>
+      </body>
+  </text>
+</TEI>
