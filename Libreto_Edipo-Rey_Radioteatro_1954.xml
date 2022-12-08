@@ -45,6 +45,10 @@
                            <resp>Música incidental</resp>
                            <persName>Maione, Rino</persName>
                         </respStmt>
+                        <respStmt>
+                           <resp>Traducción y adaptación de la ópera-oratorio de Stravinsky</resp>
+                           <persName>Otto de Greiff</persName>
+                        </respStmt>
                         <series>
                            <title>Radioteatro dominical</title>
                         </series>
@@ -53,8 +57,84 @@
                   </broadcast>
                </recording>
             </recordingStmt>
+            
+            <listBibl>
+               <head>Fuentes de la adaptación radiofónica</head>
+               <bibl xml:id="F-esp-prosa">
+                  <author>
+                     <persName>José Alemany y Bolufer</persName>
+                     <date>(1866 - 1934)</date>
+                     <note>Filólogo, helenista, lexicógrafo y traductor español.</note>
+                  </author>
+                  <title>Las siete tragedias de Sófocles</title>
+                  <publisher>Librería de los Sucesores de Hernando</publisher>
+                  <pubPlace>Madrid</pubPlace>
+                  <date>1921</date>
+                  <availability status="free">
+                     <p>Reproducción digital del original conservado en la Biblioteca Histórica de la Universidad de Murcia. Consulta libre en: <ref type="URL">
+                        https://www.cervantesvirtual.com/obra/las-siete-tragedias-de-sofocles-traducidas-al-castellano-por-jose-alemany-bolufer-885748</ref></p>
+                  </availability>
+               </bibl><lb/>
+               
+               <bibl xml:id="F-esp-verso">
+                  <author>
+                     <persName>Luis Fernández Ardavín</persName>
+                     <date>(1892 - 1962)</date>
+                     <note>Dramaturgo y poeta del modernismo, periodista y guionista cinematográfico español</note>
+                  </author>
+                  <author>
+                     <persName>Mauricio Bacarisse Casulá</persName>
+                     <date>(1895 - 1931)</date>
+                     <note>Poeta, narrador, ensayista, traductor y colaborador periodístico español</note>
+                  </author>
+                  <title>Edipo Rey. Tragedia. Traducción directa del griego</title>
+                  <publisher>Espasa-Calpe S.A.</publisher>
+                  <pubPlace>Madrid</pubPlace>
+                  <date>1931</date>
+                  <availability status="free">
+                     <p>Consulta en impreso</p>
+                  </availability>
+               </bibl><lb/>
+               
+               
+               <bibl xml:id="F-vers-lat">
+                  <respStmt>
+                     <persName>Ígor Stravinsky</persName>
+                     <resp>Compositor y director de orquesta ruso</resp>
+                  </respStmt>
+                  <respStmt>
+                     <persName>Jean Cocteau</persName>
+                     <resp>Libretista</resp>                     
+                  </respStmt>
+                  <respStmt>
+                     <persName>Jean Daniélou</persName>
+                     <resp>Traductor al latín</resp>
+                  </respStmt>  
+                  <title>Œdipus Rex</title>
+                  <note>Ópera-oratorio en dos actos</note>
+                  <publisher></publisher>
+                  <pubPlace></pubPlace>
+                  <date>1927</date>
+                  <availability>
+                     <p>http://kareol.es/obras/edipo/acto1.htm</p>
+                  </availability>
+               </bibl><lb/>
+               
+               <bibl xml:id="F-fran">
+                  <author>
+                     <persName><forename>Charles Marie René</forename> <surname>Leconte de Lisle</surname></persName>
+                     <date>(1818 - 1894)</date>
+                     <note>Poeta posromántico y helenista francés</note>
+                  </author>
+                  <title>Sophocle. Traduction nouvelle</title>
+                  <publisher>Alphonse Lemerre, s.d.</publisher>
+                  <pubPlace>Paris</pubPlace>
+                  <date>1877</date>
+               </bibl><lb/>
+            </listBibl>
          </sourceDesc>
       </fileDesc>
+     
      <encodingDesc>
         <projectDesc>
            <p>Guión transcrito para análisis de la adaptación radioteatral para Trabajo de grado de Maestría en Estudios Clásicos, Septiembre 2022, Universidad de los Andes.
@@ -62,150 +142,174 @@
         </projectDesc>
      </encodingDesc>
   </teiHeader>
+   
   <text>
-     <front>
-        <performance>
-           <p>
-              <rs type="place">Teatro Colón</rs>, <date>1 de febrero de 1954</date>
-              <castList>
-                 <head>Personajes e intérpretes de la tragedia</head>
-                 <castItem>
-                    <role xml:id="Ed.">Edipo</role>:
-                    <actor><persName>Guillermo Rubiano</persName></actor>
-                 </castItem>
-                 
-                 <castItem>
-                    <role xml:id="Yoc.">Yocasta</role>:
-                    <actor><persName>Esther Sarmiento de Correa</persName></actor>
-                 </castItem>
-                 
-                 <castItem>
-                    <role xml:id="Cre.">Creonte</role>:
-                    <actor><persName>Gonzalo Vera</persName></actor>
-                 </castItem>
-                 
-                 <castItem>
-                    <role xml:id="Tir.">Tirésias</role>:
-                    <actor><persName>Leónidas Soler</persName></actor>
-                 </castItem>
-                 
-                 <castItem>
-                    <role xml:id="Sac.">Sacerdote</role>:
-                    <actor><persName>Alejandro Salazar</persName></actor>
-                 </castItem>
-                 
-                 <castItem>
-                    <role xml:id="Criado">Criado de Layo</role>:
-                    <actor><persName>Carlos Alfonso Muñoz</persName></actor>
-                 </castItem>
-                 
-                 <castItem>
-                    <role xml:id="Mens.">Mensajero</role>:
-                    <actor><persName>Bernardo Romero Lozano</persName></actor>
-                 </castItem>
-                 
-                 <castItem>
-                    <role xml:id="Narr.">Narrador</role>:
-                    <actor><persName>Guillermo Muñoz</persName></actor>
-                 </castItem>
-                 
-                 <castItem>
-                    <role xml:id="Coro_declamado">Solitas del coro declamado</role>:   
-                    <actor><persName>Carmen del Lugo</persName></actor>,
-                    <actor><persName>Alicia del Carpio</persName></actor>,
-                    <actor><persName>Melida de Illera</persName></actor>,
-                    <actor><persName>Ana Nelba</persName></actor>,
-                    <actor><persName>Gonzalo Vera</persName></actor>,
-                 </castItem>
-                                  
-                 <castItem>
-                    <role xml:id="Coro">Coro</role>:
-                    <actor><persName>María Hernández</persName></actor>,
-                    <actor><persName>Lucia Alba</persName></actor>,
-                    <actor><persName>Gilma de Miro</persName></actor>,
-                    <actor><persName>Helena Ramírez</persName></actor>,
-                    <actor><persName>Ana Mojica</persName></actor>,
-                    <actor><persName>Juan V. Angulo</persName></actor>,
-                    <actor><persName>Fabio Camero</persName></actor>,
-                    <actor><persName>Miguel Ignacio Vanegas</persName></actor>,
-                    <actor><persName>Pablo Rodríguez</persName></actor>,
-                    <actor><persName>Bernardo Romero Pereiro</persName></actor>,
-                    <actor><persName>Álvaro Ángel</persName></actor>,
-                 </castItem>
-                 
-                 <castItem>
-                    <role xml:id="Coro_cantado">Coro cantado</role>:
-                    <actor><persName>Isabel Bulla</persName></actor>,
-                    <actor><persName>Mercedes Camargo</persName></actor>,
-                    <actor><persName>Lucia de Franco</persName></actor>,
-                    <actor><persName>Marina Camargo</persName></actor>,
-                    <actor><persName>Alfonso Duque</persName></actor>,
-                    <actor><persName>Arturo Celi</persName></actor>,
-                    <actor><persName>Jorge Yánez</persName></actor>,
-                    <actor><persName>Joaquín Forero</persName></actor>,
-                    <actor><persName>Julio Hernández</persName></actor>,
-                    <actor><persName>Calletano de las Casas</persName></actor>,
-                    <actor><persName>Alfredo Salcedo</persName></actor>,
-                    <actor><persName>Eliecer Hernández</persName></actor>,
-                    <actor><persName>Efraín Gómez</persName></actor>,
-                    <actor><persName>Eduardo López </persName></actor>,
-                    <actor><persName>Edilberto Leaño</persName></actor>,
-                 </castItem>
-                 
-              </castList>
-              
-           </p>
-           <p>Preparación del coro cantado: <persName>Alfredo Salcedo</persName></p>
-           <p>Técnico de control y realizador del montaje: <persName>Manuel Medina Mesa</persName></p>
-           <p>Supervisión técnica: <persName>Fernando Gómez Agudelo</persName></p>
-           <p>Dirección general: <persName>Bernardo Romero Lozano</persName></p>
-        </performance>
-      </front>
-      
+     
      <body>
         
-        <head><supplied>Transcripción de la transmisión radial de la adaptación de <name type="obra">Edipo Rey</name> por <persName>Bernardo Romero Lozano</persName>, 
-           <date when="1954">1954</date></supplied></head>
+        <head>
+           <supplied>Transcripción de la transmisión radial de la adaptación de <name type="obra">Edipo Rey</name> por <persName>Bernardo Romero Lozano</persName> 
+           </supplied><lb/>
+           <rs type="place">Teatro Colón</rs>, <date>1 de febrero de 1954</date>
+        </head>
+        
+        <div>
+              <p>
+                 <castList>
+                    <head>Personajes e intérpretes de la tragedia</head>
+                    <castItem>
+                       <role xml:id="Ed.">Edipo</role>:
+                       <actor><persName>Guillermo Rubiano</persName></actor>
+                    </castItem><lb/>
+                    
+                    <castItem>
+                       <role xml:id="Yoc.">Yocasta</role>:
+                       <actor><persName>Esther Sarmiento de Correa</persName></actor>
+                    </castItem><lb/>
+                    
+                    <castItem>
+                       <role xml:id="Cre.">Creonte</role>:
+                       <actor><persName>Gonzalo Vera</persName></actor>
+                    </castItem><lb/>
+                    
+                    <castItem>
+                       <role xml:id="Tir.">Tirésias</role>:
+                       <actor><persName>Leónidas Soler</persName></actor>
+                    </castItem><lb/>
+                    
+                    <castItem>
+                       <role xml:id="Sac.">Sacerdote</role>:
+                       <actor><persName>Alejandro Salazar</persName></actor>
+                    </castItem><lb/>
+                    
+                    <castItem>
+                       <role xml:id="Criado">Criado de Layo</role>:
+                       <actor><persName>Carlos Alfonso Muñoz</persName></actor>
+                    </castItem><lb/>
+                    
+                    <castItem>
+                       <role xml:id="Mens.">Mensajero</role>:
+                       <actor><persName>Bernardo Romero Lozano</persName></actor>
+                    </castItem><lb/>
+                    
+                    <castItem>
+                       <role xml:id="Narr.">Narrador</role>:
+                       <actor><persName>Guillermo Muñoz</persName></actor>
+                    </castItem><lb/><lb/>
+                    
+                    <castItem>
+                       <role xml:id="Coro_declamado">Solitas del coro declamado</role>:   
+                       <actor><persName>Carmen del Lugo</persName></actor>,
+                       <actor><persName>Alicia del Carpio</persName></actor>,
+                       <actor><persName>Melida de Illera</persName></actor>,
+                       <actor><persName>Ana Nelba</persName></actor>,
+                       <actor><persName>Gonzalo Vera</persName></actor>.
+                    </castItem><lb/><lb/>
+                    
+                    <castItem>
+                       <role xml:id="Coro">Coro</role>:
+                       <actor><persName>María Hernández</persName></actor>,
+                       <actor><persName>Lucia Alba</persName></actor>,
+                       <actor><persName>Gilma de Miro</persName></actor>,
+                       <actor><persName>Helena Ramírez</persName></actor>,
+                       <actor><persName>Ana Mojica</persName></actor>,
+                       <actor><persName>Juan V. Angulo</persName></actor>,
+                       <actor><persName>Fabio Camero</persName></actor>,
+                       <actor><persName>Miguel Ignacio Vanegas</persName></actor>,
+                       <actor><persName>Pablo Rodríguez</persName></actor>,
+                       <actor><persName>Bernardo Romero Pereiro</persName></actor>,
+                       <actor><persName>Álvaro Ángel</persName></actor>.
+                    </castItem><lb/><lb/>
+                    
+                    <castItem>
+                       <role xml:id="Coro_cantado">Coro cantado</role>:
+                       <actor><persName>Isabel Bulla</persName></actor>,
+                       <actor><persName>Mercedes Camargo</persName></actor>,
+                       <actor><persName>Lucia de Franco</persName></actor>,
+                       <actor><persName>Marina Camargo</persName></actor>,
+                       <actor><persName>Alfonso Duque</persName></actor>,
+                       <actor><persName>Arturo Celi</persName></actor>,
+                       <actor><persName>Jorge Yánez</persName></actor>,
+                       <actor><persName>Joaquín Forero</persName></actor>,
+                       <actor><persName>Julio Hernández</persName></actor>,
+                       <actor><persName>Calletano de las Casas</persName></actor>,
+                       <actor><persName>Alfredo Salcedo</persName></actor>,
+                       <actor><persName>Eliecer Hernández</persName></actor>,
+                       <actor><persName>Efraín Gómez</persName></actor>,
+                       <actor><persName>Eduardo López </persName></actor>,
+                       <actor><persName>Edilberto Leaño</persName></actor>.
+                    </castItem><lb/><lb/>
+                    
+                    <castItem>
+                       <role>Preparación del coro cantado:</role> <persName>Alfredo Salcedo</persName><lb/>
+                       <role>Técnico de control y realizador del montaje:</role> <persName>Manuel Medina Mesa</persName><lb/>
+                       <role>Supervisión técnica: </role> <persName>Fernando Gómez Agudelo</persName><lb/>
+                       <role>Dirección general:</role> <persName>Bernardo Romero Lozano</persName><lb/>
+                 </castItem>
+                    
+                 </castList>
+              </p><lb/>
+              
+           <figure n="1">
+              <graphic url="imagen/aniversario14colon.jpg"></graphic><lb/>
+              <figDesc>Los directores, actores, coros, técnicos y Orquesta Sinfónica de Colombia. durante la grabación de <name type="obra">Edipo Rey</name>, 
+                 de Sófocles en el Teatro de Colón. Tomado del <name type="revista">Boletín de programas</name> de marzo de 1954</figDesc>
+           </figure>
+        </div>
         
         <div type="apertura">
            <head>Palabras de apertura</head>
-           <sp>
-              <speaker>Locutor</speaker>
-        <p>
-           Entre los programas especiales con que la Radiodifusora Nacional conmemora el décimo cuarto aniversario de su fundación, figura la audición de la magna tragedia griega
-           Edipo Rey, de Sófocles, en una versión libre para teatro radiofónico realizada por el director del grupo radioteatral de la emisora Bernardo Romero Lozano. Dicha versión comprende
-           además la partitura musical expresamente escrita por el maestro Rino Maione, profesor contratado por la Universidad Nacional para regentar cátedras de estudios mayores en el 
-           Conservatorio de Música de la misma Universidad. La partitura en cuestión será interpretada por la Orquesta Sinfónica de Colombia bajo la dirección del propio autor, e incluye 
-           además la participación de un grupo coral mixto. En cuanto al coro mismo del texto dramútico de Sófocles, que en esta versión radiofónica de la tragedia habla 
-           en forma polifónica y rítmica, se ha utilizado el arreglo para la versión dramático musical de Edipo, Rey, realizada por Jean Cocteau e Igor Stravinsky, 
-           tomada de la versión latina de J. Danielou y la alemana de L. Thurneiser, cuya traducción castellana ha hecho el afamado musicólogo y hombre de letras colombiano
-           Otto de Greiff. El adaptador por otra parte, se ha basado para su versión radiofónica de la tragedia de Sófocles en el texto español de José Alemany Bolufer, 
-           y en partes de la versión en verso de los poetas españoles Luis Fernández Ardavín y Mauricio Bacarisse.
-        </p>
-        <p>
-           Este empeño de llevar a las ondas del radio una tragedia antigua de tan altas ejecutorias en la historia dramática de todos los tiempos, tiene honrosos antecedentes 
-           en la vida artística de la Radiodifusora Nacional. El público oyente recordará que hace algunos años fue presentada -entonces por primera vez en la radiodifusión continental- 
-           una tragedia griega, el Prometeo Encadenado, de Esquilo, para la cual escribió la música incidenlal el insigne maestro colomhiano Guillermo Uribe Holg-uín. La audición 
-           de la tragedia esquiliana ha sido uno de los más significativos triunfos artísticos conquistados por la emisora Nacional de Colombia en sus años de existencia.
-        </p>
-        <p>
-           En esta ocasión, con ayuda de las experiencias adquiridas en el arte radioteatral y el invaluable apoyo de una técnica día a día evolucionada, confiamos en poder superar esfuerzos 
-           anteriores, para ofrecer al público oyente una audición de radioteatro eminente categoría cultural y artística. Esos son nuestros más fervorosos deseos.
-        </p>
-           </sp>
            
+           <div type="figura1">
+              <figure n="2">
+                 <graphic url="imagen/aniversario14.png"></graphic><lb/>
+                 <figDesc>Programa especial de celebración del décimo cuarto aniversario de la fundación de la Radiodifusora Nacional de Colombia.
+                    Tomado de <name type="publicacion">El Tiempo</name> 1 de febrero de 1954 (p. 5)</figDesc>
+              </figure>
+           </div>
+           
+           <div>
+           
+           <sp n="1">
+              <speaker>Locutor</speaker>
+              <p>
+                 Entre los programas especiales con que la Radiodifusora Nacional conmemora el décimo cuarto aniversario de su fundación, figura la audición de la magna tragedia griega
+           <name type="obra">Edipo Rey</name>, de Sófocles, en una versión libre para teatro radiofónico realizada por el director del grupo radioteatral de la emisora Bernardo Romero Lozano. 
+           Dicha versión comprende además la partitura musical expresamente escrita por el maestro Rino Maione, profesor contratado por la Universidad Nacional para regentar 
+           cátedras de estudios mayores en el Conservatorio de Música de la misma Universidad. La partitura en cuestión será interpretada por 
+           la Orquesta Sinfónica de Colombia bajo la dirección del propio autor, e incluye además la participación de un grupo coral mixto. 
+           En cuanto al coro mismo del texto dramático de Sófocles, que en esta versión radiofónica de la tragedia habla en forma polifónica y rítmica, 
+           se ha utilizado el arreglo para la versión dramático musical de <name type="obra">Edipo Rey</name>, realizada por Jean Cocteau e Igor Stravinsky, 
+           tomada de la versión latina de J. Danielou y la alemana de L. Thurneiser, cuya traducción castellana ha hecho el afamado musicólogo y hombre de letras colombiano
+           Otto de Greiff. El adaptador, por otra parte, se ha basado para su versión radiofónica de la tragedia de Sófocles en el texto español de José Alemany Bolufer, 
+           y en partes de la versión en verso de los poetas españoles Luis Fernández Ardavín y Mauricio Bacarisse.
+              </p>
+              <p>
+                 Este empeño de llevar a las ondas del radio una tragedia antigua de tan altas ejecutorias en la historia dramática de todos los tiempos tiene honrosos antecedentes 
+           en la vida artística de la Radiodifusora Nacional. El público oyente recordará que hace algunos años fue presentada -entonces por primera vez en la radiodifusión continental- 
+           una tragedia griega, <name type="obra">el Prometeo Encadenado</name>, de Esquilo, para la cual escribió la música incidenlal el insigne maestro colombiano 
+           Guillermo Uribe Holguín. La audición de la tragedia esquiliana ha sido uno de los más significativos triunfos artísticos conquistados por la emisora Nacional 
+           de Colombia en sus años de existencia.
+              </p>
+              <p>
+                 En esta ocasión, con ayuda de las experiencias adquiridas en el arte radioteatral y el invaluable apoyo de una técnica día a día evolucionada, confiamos en poder superar esfuerzos 
+           anteriores, para ofrecer al público oyente una audición de radioteatro de eminente categoría cultural y artística. Esos son nuestros más fervorosos deseos.
+              </p>
+           </sp>
+              
+           </div>
         </div>
-                
+        
         <div type="act" n="1">
            <head>Parte I</head>
            <sp who="#Narr.">
               <speaker>Narrador</speaker>
-              <p>
+              <p corresp="#F-vers-lat">
                  Noble auditorio, escucharéis una versión del Edipo Rey de Sófocles. Vuestra atención, vuestra memoria no serán forzadas.
                  Este drama ofrece un cuadro vivo de los acontecimientos.
               </p>
               
-              <p>
+              <p corresp="#F-vers-lat">
                  Sin tener consciencia de ello, Edipo lucha contra los poderes que amenazan desde el más allá. 
                  En la cuna, ya Edipo lo cercaron lazos que ahora, ante vuestra atención, se estrecharán más.
                  Y he aquí la historia brevemente narrada antes del drama. Edipo, el de los pies hinchados,
@@ -222,14 +326,14 @@
            <spGrp>
            <sp who="#Coro_cantado">
               <speaker>Coro</speaker>
-              <p>
+              <p corresp="#F-vers-lat">
                  Oh
               </p>
            </sp>
            
            <sp who="#Coro_declamado">
               <speaker>Coro</speaker>
-              <p>
+              <p corresp="#F-vers-lat">
                  <l>¡Edipo, Edipo, Edipo!</l>
                  <l>La peste nos <unclear reason="inaudible"><add cause="fuente_traduccion">viene</add></unclear>, 
                     a Tebas la peste <unclear reason="inaudible"><add cause="fuente_traduccion">la lleva</add></unclear>.</l>
@@ -268,7 +372,7 @@
               
            <sp who="#Coro">
               <speaker>Coro</speaker>
-              <l>La peste evítanos, Edipo. Libra, Edipo, la ciudad.</l>
+              <l corresp="#F-vers-lat">La peste evítanos, Edipo. Libra, Edipo, la ciudad.</l>
            </sp>
               
            <sp who="#Sac.">
@@ -281,7 +385,7 @@
               
            <sp who="#Coro">
               <speaker>Coro</speaker>
-              <l>La peste evítanos, Edipo. Libra, Edipo, la ciudad.</l>
+              <l corresp="#F-vers-lat">La peste evítanos, Edipo. Libra, Edipo, la ciudad.</l>
            </sp>
            
             <sp who="#Sac.">
@@ -295,7 +399,7 @@
               
             <sp who="#Coro">
                <speaker>Coro</speaker>
-               <l>La peste evítanos, Edipo. Libra, Edipo, la ciudad.</l>
+               <l corresp="#F-vers-lat">La peste evítanos, Edipo. Libra, Edipo, la ciudad.</l>
             </sp>
             
             <sp who="#Ed.">
@@ -313,10 +417,12 @@
            <spGrp>
               <sp who="#Coro">
                  <speaker>Coro</speaker>
+                 <p corresp="#F-vers-lat">
                  <l>Salve, salve, Creón. Escuchamos.</l>
                  <l>Salve, Creón. Apresúrate.</l>
                  <l>Quienes escuchan te saludan.</l>
                  <l>Salve, Creón, te escuchamos.</l>
+                 </p>
               </sp>
               
               <sp who="#Cre.">
@@ -367,10 +473,12 @@
               
               <sp who="#Coro">
                  <speaker>Coro</speaker>
+                 <p corresp="#F-vers-lat">
                  <l>Habló el dios, te habló a ti.</l>
                  <l>A ti el dios te lo ha dicho.</l>
                  <l>Quienes escuchan te saludan.</l>
                  <l>En Tebas está el asesino.</l>
+                 </p>
               </sp>              
 
               <sp who="#Ed.">
@@ -404,8 +512,10 @@
               
               <sp who="#Coro">
                  <speaker>Coro</speaker>
+                 <p corresp="#F-vers-lat">
                  <l>La voz del vidente esperamos.</l>
                  <l>Salve, Tiresias, salve.</l>
+                 </p>
               </sp>
               
               <sp who="#Ed.">
@@ -421,7 +531,7 @@
               
               <sp who="#Coro">
                  <speaker>Coro</speaker>
-                 <l>¡Salve, Tiresias, vate clarísimo!</l>
+                 <l corresp="#F-vers-lat">¡Salve, Tiresias, vate clarísimo!</l>
               </sp>
               
               <sp who="#Coro_declamado">
@@ -436,7 +546,7 @@
               
               <sp who="#Coro">
                  <speaker>Coro</speaker>
-                 <l>¡Habla, docto vidente!</l>
+                 <l corresp="#F-vers-lat">¡Habla, docto vidente!</l>
               </sp>
               
               <sp who="#Tir.">
@@ -576,7 +686,7 @@
            <head>Parte II</head>
            <sp who="#Narr.">
               <speaker>Narrador</speaker>
-              <p>
+              <p corresp="#F-vers-lat">
                  Las palabras del adivino ciego Tiresias han provocado la lucha entre Edipo y él. Edipo increpa a traición a su cuñado.
                  Las palabras airadas de los príncipes atraen a la reina Yocasta. Ahora oiréis cómo ella los exhorta para apaciguarlos, 
                  cómo los incita a que cesen sus ridículas arengas en la pestilente Tebas.
@@ -586,9 +696,11 @@
            <spGrp>
               <sp who="#Coro">
                  <speaker>Coro</speaker>
+                 <p corresp="#F-vers-lat">
                  <l>¡Gloria, gloria, gloria!</l>
                  <l><gap reason="inaudible"></gap>.</l>
                  <l>¡Gloria, gloria, gloria!</l>
+                 </p>
               </sp>
               
               <sp who="#Yoc.">
@@ -601,8 +713,10 @@
               
               <sp who="#Coro">
                  <speaker>Coro</speaker>
+                 <p corresp="#F-vers-lat">
                  <l>¡Salve, salve, la esposa de Edipo!</l>
                  <l>¡Gloria, gloria, gloria!</l>
+                 </p>
               </sp>
               
               <sp who="#Yoc.">
@@ -786,6 +900,7 @@
            <spGrp>
               <sp who="#Coro">
                  <speaker>Coro</speaker>
+                 <p corresp="#F-vers-lat">
                  <l>¡Gloria, gloria, gloria!</l>
                  <l>A ti, reina Yocasta,</l>
                  <l>En Tebas pestilente.</l>
@@ -795,6 +910,7 @@
                  <l>Salve, salve, esposa de Edipo.</l>
                  <l>¡Gloria, gloria, gloria!</l>
                  <l>¡Gloria, gloria, gloria!</l>
+                 </p>
               </sp>
            </spGrp>
            
@@ -946,8 +1062,10 @@
            <spGrp>
               <sp who="#Coro">
                  <speaker>Coro</speaker>
+                 <p corresp="#F-vers-lat">
                  <l>He aquí al pastor omnisciente,</l>
                  <l>Nuncio de cosas espantables.</l>
+                 </p>
               </sp>
               
               <sp who="#Ed.">
@@ -960,12 +1078,16 @@
               
               <sp who="#Coro">
                  <speaker>Coro femenino</speaker>
+                 <p corresp="#F-vers-lat">
                  <l>He aquí al pastor omnisciente,</l>
                  <l>Nuncio de cosas espantables.</l>
+                 </p>
               </sp>
               <sp who="#Coro">
                  <speaker>Coro masculino</speaker>
+                 <p corresp="#F-vers-lat">
                  <l>El pastor, el pastor omnisciente.</l>
+                 </p>
               </sp>
               
               <sp who="#Ed.">
@@ -1197,15 +1319,18 @@
               
               <sp who="#Coro">
                  <speaker>Coro</speaker>
+                 <p corresp="#F-vers-lat">
                  <l>Muerto Pólibo</l>
                  <l>Muerto el anciano Pólibo.</l>
                  <l>No fue de Edipo genitor,</l>
                  <l>No lo fue, no lo fue.</l>
                  <l>Padre falso por ti <unclear reason="faded"><add>no</add></unclear> lo fue.</l>
+                 </p>
               </sp>
               
               <sp who="#Coro">
                  <speaker>Voz masculina</speaker>
+                 <p corresp="#F-vers-lat">
                  <l>—Un alto dios genitor fue de Edipo con ninfa de bosque</l>
                  <l><unclear reason="inaudible">duras nuevas contrarias</unclear></l>
                  <l><gap reason="faded"></gap> sueño que urge, con paso presuroso,</l>
@@ -1213,6 +1338,7 @@
                  <l>Le fuerza a <gap reason="faded"></gap> al afortunado</l>
                  <l>Estando muy bajo con frío y trabajo</l>
                  <l>Llegaste a la cima que el <unclear reason="inaudible">contento</unclear> anima</l>
+                 </p>
               </sp>
               
               <sp who="#Coro">
@@ -1238,7 +1364,9 @@
               
               <sp who="#Coro">
                  <speaker>Coro</speaker>
+                 <p corresp="#F-vers-lat">
                  <l>El hijo de Layo y Yocasta.</l>
+                 </p>
               </sp>
            </spGrp>
         </div>
@@ -1282,7 +1410,7 @@
               
               <sp who="#Mens.">
                  <speaker>Mensajero</speaker>
-                 <p>
+                 <p corresp="#F-fran">
                     Ella misma. Cuando desesperada de dolor penetró en el vestíbulo. Se fue a la alcoba <unclear reason="inaudible">nupcial</unclear>. 
                     Con ambas manos se <unclear reason="inaudible">mesaba</unclear> en su cabello. 
                     Luego que entró en la <unclear reason="inaudible">cámara</unclear><gap reason="inaudible"></gap> invocó a Layo muerto
@@ -1319,7 +1447,9 @@
               
               <sp who="#Coro">
                  <speaker>Coro</speaker>
+                 <p corresp="#F-vers-lat">
                  <l>Oh, qué espantosa la miseria humana.</l>
+                 </p>
               </sp>
               
               <sp who="#Ed.">
@@ -1334,7 +1464,7 @@
               
               <sp who="#Coro_declamado">
                  <speaker>Corifeo</speaker>
-                 <p>
+                 <p corresp="#F-vers-lat" change="#Mens.">
                     muerta está la divina cabeza de Yocasta
                  </p>
               </sp>
@@ -1391,12 +1521,14 @@
               
               <sp who="#Coro">
                  <speaker>Coro</speaker>
+                 <p corresp="#F-vers-lat">
                  <l>Mirad al rey Edipo.</l>
                  <l>En pena monstruoso,</l>
                  <l>Su cruel infortunio.</l>
                  <l>Edipo el rey enceguecido,</l>
                  <l>Rey parricida, mísero Edipo,</l>
-                 <l>Adivino de enigmas, ciego, ciego, ciego.</l>                 
+                 <l>Adivino de enigmas, ciego, ciego, ciego.</l>
+                 </p>
               </sp>
               
               <sp who="#Ed.">
@@ -1412,9 +1544,11 @@
               
               <sp who="#Coro">
                  <speaker>Coro</speaker>
+                 <p corresp="#F-vers-lat">
                  <l>Rey Edipo, la luz de tus ojos lloramos.</l>
                  <l>Rey Edipo, rey Edipo, Edipo</l>
                  <l>¡Edipo!</l>
+                 </p>
               </sp>
            </spGrp>
         </div>

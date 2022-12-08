@@ -1,31 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url(https://fonts.bunny.net/css?family=actor:400);
+@import url(https://fonts.bunny.net/css?family=aladin:400);
+@import url(https://fonts.bunny.net/css?family=xanh-mono:400,400i);
+@import url(https://fonts.bunny.net/css?family=akaya-kanadaka:400);
+@import url(https://fonts.bunny.net/css?family=overlock:400,400i,700,700i,900,900i);
+
+
 body {
-  font-size: 12pt;
+  background-color: rgba(88, 88, 132, 0.45);
+  font-size: 13pt;
   max-width: 800px;
   margin: auto;
   padding: 30px;
+  font-family: overlock;
 }
 
-tei-body {
-  font-size: 12pt;
-  max-width: 800px;
-  margin: auto;
-  padding: 30px;
+tei-role {
+  font-family: actor;
 }
 
 tei-head {
   display: block;
-  background-color: rgb(76, 132, 138);
+  background-color: rgb(86, 143, 116);
   text-align: center;
   font-weight: bold;
-  font-family: 'Ms Madi', cursive;
+  font-family: aladin;
   padding: 20px;
   font-size: 140%;
   margin-bottom: 10px;
   border-width: 5px;
   border-style:groove;
-  border-color: rgb(20, 92, 109);
+  border-color: rgb(91, 158, 172);
 }
 
 tei-head tei-persname{
@@ -33,19 +37,36 @@ tei-head tei-persname{
 }
 tei-persname {
   font-variant:small-caps;
+  font-size: large;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 tei-p {
   display: block;
   text-align: left;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14;
+  font-family: xanh-mono;
 }
 
 tei-l {
   display: block;
   text-align: left;
   font-style: oblique;
+  font-family: xanh-mono;
+  font-size:12pt;
+}
+
+tei-speaker {
+  font-weight: bold;
+  font-size: large;
+
+}
+
+tei-sp {
+  display: block;
+  padding: 3px;
+  margin-bottom: 10px;
+  border-width: 5px;
 }
 
 tei-div{
@@ -55,19 +76,31 @@ tei-div{
   border-style:outset;
   margin-right: inset;
   border-width: 2px;
-  border-color: rgb(124, 75, 11);
+  border-color: rgb(196, 173, 142);
   margin-bottom: 10px;
 }
 
-tei-div[type="manuscrito"]{
-  font-family: 'Satisfy', cursive;
-  color: rgb(77, 61, 49);
+tei-div[type="columnas"]{
+  column-count: 2;
 }
 
-tei-div[type="act"]{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 80%;
-  background-color: rgb(243, 225, 202);
+tei-div tei-div[type="figura1"]{
+  border-style:none;
+}
+
+tei-sp[n="1"]{
+  float: left;
+  width: 100%;
+  position: static;
+  border-style:none;
+}
+
+tei-figure[n="1"]{
+  width: 100%;
+  float: right;
+  padding-left: 10px;
+  text-align: center;
+  position: static;
 }
 
 tei-abbr::before{
@@ -106,16 +139,4 @@ tei-gap::before{
 tei-lb::before {
   white-space: pre;
   content: "\A";
-}
-
-tei-speaker {
-  font-variant: small-caps;
-  font-family: serif;
-}
-
-tei-sp {
-  display: block;
-  padding: 3px;
-  margin-bottom: 10px;
-  border-width: 5px;
 }
