@@ -13,6 +13,16 @@ body {
   font-family: overlock;
 }
 
+tei-head [type="principal"]{
+  width: 800px;
+  margin: center;
+  display: block;
+  margin-bottom: 10px;
+  padding: 20px;
+  position:static;
+  float: none;
+}
+
 tei-name {
   font-style: italic;
 }
@@ -27,7 +37,7 @@ tei-head {
   font-size: 160%;
   margin-bottom: 10px;
   border-width: 5px;
-  border-style:groove;
+  border-style:outset;
   border-color: rgb(126, 171, 150);
 }
 
@@ -46,7 +56,6 @@ tei-persname {
   font-size: large;
   font-family: actor;
 }
-
 
 tei-sp {
   display:inline-block;
@@ -71,11 +80,12 @@ tei-l {
 
 tei-div{
   display:inline-block;
+  float: none;
+  position: static;
   padding: 25px;
   background-color: rgb(232, 219, 204);
-  border-style:outset;
-  margin-right: inset;
-  border-width: 2px;
+  border-style:double;
+  border-width: 5px;
   border-color: rgb(196, 173, 142);
   margin-bottom: 10px;
 }
@@ -85,6 +95,7 @@ tei-div tei-div[type="figura1"]{
 }
 tei-figure[n="1"]{
   width: 100%;
+  height: auto;
   float: right;
   padding-left: 10px;
   text-align: center;
@@ -97,6 +108,7 @@ tei-div tei-div[type="figura2"]{
 }
 tei-figure[n="2"]{
   width: 100%;
+  height: auto;
   float: right;
   padding-left: 10px;
   text-align: center;
@@ -110,7 +122,6 @@ tei-sp[n="1"]{
   position: static;
   border-style:none;
 }
-
 
 
 

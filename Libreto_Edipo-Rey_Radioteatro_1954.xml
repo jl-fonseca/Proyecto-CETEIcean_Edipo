@@ -6,10 +6,11 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><name type="programadora">Radioteatro dominical</name>: <name type="obra">Edipo Rey</name> de <persName>Sófocles</persName> por <persName>Bernardo Romero Lozano</persName></title>
+            <title><name type="programadora">Radioteatro dominical</name>: <name type="obra">Edipo Rey</name> de <persName>Sófocles</persName> por 
+               <persName>Bernardo Romero Lozano</persName></title>
             <respStmt>
                <resp>Adaptación de</resp>
-               <persName>Romero Lozano, Bernardo</persName>
+               <persName>Bernardo Romero Lozano</persName>
             </respStmt>
          </titleStmt>
 
@@ -17,7 +18,7 @@
             <authority>Señal Memoria - RTVC</authority>
             <pubPlace>Bogotá</pubPlace>
             <date type="publicacion">2018</date>
-            <date type="transcripcion">2022-12-04</date>
+            <date type="codificacion">2022-12-04</date>
             <availability status="free">
                <p>De dominio público. Consulta gratuita a través del sitio web www.senalmemoria.co</p>
             </availability>
@@ -58,6 +59,7 @@
                </recording>
             </recordingStmt>
             
+            <scriptStmt>
             <listBibl>
                <head>Fuentes de la adaptación radiofónica</head>
                <bibl xml:id="F-esp-prosa">
@@ -96,7 +98,6 @@
                   </availability>
                </bibl><lb/>
                
-               
                <bibl xml:id="F-vers-lat">
                   <respStmt>
                      <persName>Ígor Stravinsky</persName>
@@ -132,6 +133,7 @@
                   <date>1877</date>
                </bibl><lb/>
             </listBibl>
+            </scriptStmt>
          </sourceDesc>
       </fileDesc>
      
@@ -144,11 +146,9 @@
   </teiHeader>
    
   <text>
-     
      <body>
-        
-        <head>
-           <supplied>Transcripción de la transmisión radial de la adaptación de <name type="obra">Edipo Rey</name><lb/> por <persName>Bernardo Romero Lozano</persName> 
+        <head type="principal">
+           <supplied>Adaptación radiofónica de <name type="obra">Edipo Rey</name><lb/> por <persName>Bernardo Romero Lozano</persName> 
            </supplied><lb/>
            <rs type="place">Teatro Colón</rs>, <date>1 de febrero de 1954</date>
         </head>
@@ -366,7 +366,7 @@
               
            <sp who="#Sac.">
               <speaker>Sacerdote</speaker>
-              <p>
+              <p corresp="#F-esp-prosa">
                  ¡Oh, poderoso Edipo, rey de mi patria!, todos estamos al pie de tus altares. 
                  Niños que apenas pueden andar; ancianos sacerdotes encorvados por la vejez; 
                  yo, el sacerdote de Júpiter, y éstos, que son lo más escogido entre <unclear reason="inaudible"><add cause="fuente_traduccion">juventud.
@@ -997,7 +997,7 @@
               <sp who="#Ed.">
                  <speaker>Edipo</speaker>
                  <p>
-                    ¿Cómo no, si <add cause="adaptacion">son</add> ellos <add cause="adaptacion">, Mérope y Pólibro,</add>los padres que me engendraron?
+                    ¿Cómo no, si <add cause="adaptacion">son</add> ellos<add cause="adaptacion">, Mérope y Pólibro,</add> los padres que me engendraron?
                  </p>
               </sp>
               
