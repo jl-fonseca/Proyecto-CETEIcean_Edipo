@@ -1,72 +1,72 @@
 @import url(https://fonts.bunny.net/css?family=actor:400);
 @import url(https://fonts.bunny.net/css?family=aladin:400);
-@import url(https://fonts.bunny.net/css?family=xanh-mono:400,400i);
-@import url(https://fonts.bunny.net/css?family=akaya-kanadaka:400);
 @import url(https://fonts.bunny.net/css?family=overlock:400,400i,700,700i,900,900i);
-
+@import url(https://fonts.bunny.net/css?family=noto-serif-sc:400,600);
+@import url(https://fonts.bunny.net/css?family=inria-serif:400);
 
 body {
   background-color: rgba(88, 88, 132, 0.45);
-  font-size: 13pt;
+  font-size: 14pt;
   max-width: 800px;
   margin: auto;
   padding: 30px;
   font-family: overlock;
 }
 
-tei-role {
-  font-family: actor;
+tei-name {
+  font-style: italic;
 }
 
 tei-head {
   display: block;
-  background-color: rgb(86, 143, 116);
+  background-color: rgb(126, 171, 150);
   text-align: center;
   font-weight: bold;
   font-family: aladin;
   padding: 20px;
-  font-size: 140%;
+  font-size: 160%;
   margin-bottom: 10px;
   border-width: 5px;
   border-style:groove;
-  border-color: rgb(91, 158, 172);
+  border-color: rgb(126, 171, 150);
 }
 
 tei-head tei-persname{
-  font-variant: normal;
+  font-family: aladin;
+  text-align: center;
+  font-weight: bold;
+  font-size: 100%;
+}
+
+tei-role {
+  font-family: actor;
+  font-size: large;
 }
 tei-persname {
-  font-variant:small-caps;
   font-size: large;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: actor;
 }
 
-tei-p {
-  display: block;
-  text-align: left;
-  font-size: 14;
-  font-family: xanh-mono;
-}
 
-tei-l {
-  display: block;
+tei-sp {
+  display:inline-block;
+  padding: 3px;
   text-align: left;
-  font-style: oblique;
-  font-family: xanh-mono;
-  font-size:12pt;
+  margin-bottom: 10px;
+  border-width: 5px;
+  font-size: 15pt;
+  font-family:inria;
 }
 
 tei-speaker {
   font-weight: bold;
-  font-size: large;
 
 }
-
-tei-sp {
-  display: block;
-  padding: 3px;
-  margin-bottom: 10px;
-  border-width: 5px;
+tei-p {
+  text-align: left;
+}
+tei-l {
+  text-align: left;
 }
 
 tei-div{
@@ -80,12 +80,28 @@ tei-div{
   margin-bottom: 10px;
 }
 
-tei-div[type="columnas"]{
-  column-count: 2;
-}
-
 tei-div tei-div[type="figura1"]{
   border-style:none;
+}
+tei-figure[n="1"]{
+  width: 100%;
+  float: right;
+  padding-left: 10px;
+  text-align: center;
+  font-size: 12pt;
+  position: static;
+}
+
+tei-div tei-div[type="figura2"]{
+  border-style:none;
+}
+tei-figure[n="2"]{
+  width: 100%;
+  float: right;
+  padding-left: 10px;
+  text-align: center;
+  font-size: 12pt;
+  position: static;
 }
 
 tei-sp[n="1"]{
@@ -95,44 +111,31 @@ tei-sp[n="1"]{
   border-style:none;
 }
 
-tei-figure[n="1"]{
-  width: 100%;
-  float: right;
-  padding-left: 10px;
-  text-align: center;
-  position: static;
-}
 
-tei-abbr::before{
-  content: "(";
-}
 
-tei-abbr::after{
-  content: ")";
-}
-
-tei-corr{
-  color: rgb(170, 140, 51);
-  font-weight: bold;
-}
 
 tei-del{
-  color: rgb(146, 58, 58);
+  color: rgb(68, 56, 142);
   text-decoration: line-through;
 }
 
 tei-add{
-  color: rgb(119, 129, 153);
+  color: rgb(82, 128, 90);
+  font-weight: bold;
+}
+
+tei-unclear{
+  color: rgb(121, 58, 102);
   font-weight: bold;
 }
 
 tei-gap {
-  background-color: rgb(126, 113, 113);
+  background-color: rgb(145, 143, 30);
   content: "x";
 }
 
 tei-gap::before{
-  content: " ";
+  content: "(...)";
   white-space: pre;
 }
 

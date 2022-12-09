@@ -148,15 +148,26 @@
      <body>
         
         <head>
-           <supplied>Transcripción de la transmisión radial de la adaptación de <name type="obra">Edipo Rey</name> por <persName>Bernardo Romero Lozano</persName> 
+           <supplied>Transcripción de la transmisión radial de la adaptación de <name type="obra">Edipo Rey</name><lb/> por <persName>Bernardo Romero Lozano</persName> 
            </supplied><lb/>
            <rs type="place">Teatro Colón</rs>, <date>1 de febrero de 1954</date>
         </head>
         
         <div>
+           <head>Personajes e intérpretes de la tragedia</head>
+           
+           <div type="figura1">
+              <figure n="1">
+                 <graphic url="imagen/aniversario14colon.jpg"></graphic><lb/>
+                 <figDesc>Los directores, actores, coros, técnicos y Orquesta Sinfónica de Colombia, durante la grabación de <name type="obra">Edipo Rey</name>, 
+                    de Sófocles, en el Teatro de Colón. Tomado del <name type="revista">Boletín de programas</name> de marzo de 1954</figDesc><lb/>
+              </figure>
+           </div>
+           
+           <div>
               <p>
                  <castList>
-                    <head>Personajes e intérpretes de la tragedia</head>
+                    
                     <castItem>
                        <role xml:id="Ed.">Edipo</role>:
                        <actor><persName>Guillermo Rubiano</persName></actor>
@@ -249,18 +260,14 @@
                     
                  </castList>
               </p><lb/>
+           </div>
               
-           <figure n="1">
-              <graphic url="imagen/aniversario14colon.jpg"></graphic><lb/>
-              <figDesc>Los directores, actores, coros, técnicos y Orquesta Sinfónica de Colombia. durante la grabación de <name type="obra">Edipo Rey</name>, 
-                 de Sófocles en el Teatro de Colón. Tomado del <name type="revista">Boletín de programas</name> de marzo de 1954</figDesc>
-           </figure>
         </div>
         
         <div type="apertura">
            <head>Palabras de apertura</head>
            
-           <div type="figura1">
+           <div type="figura2">
               <figure n="2">
                  <graphic url="imagen/aniversario14.png"></graphic><lb/>
                  <figDesc>Programa especial de celebración del décimo cuarto aniversario de la fundación de la Radiodifusora Nacional de Colombia.
@@ -323,32 +330,30 @@
               </p>
            </sp>
            
-           <spGrp>
            <sp who="#Coro_cantado">
-              <speaker>Coro</speaker>
+              <speaker>Coro entona</speaker>
               <p corresp="#F-vers-lat">
-                 Oh
+                 <l>Oh</l>
               </p>
-           </sp>
+           </sp><lb/>
            
            <sp who="#Coro_declamado">
-              <speaker>Coro</speaker>
+              <speaker>Coro</speaker><lb/>
               <p corresp="#F-vers-lat">
-                 <l>¡Edipo, Edipo, Edipo!</l>
-                 <l>La peste nos <unclear reason="inaudible"><add cause="fuente_traduccion">viene</add></unclear>, 
-                    a Tebas la peste <unclear reason="inaudible"><add cause="fuente_traduccion">la lleva</add></unclear>.</l>
-                 <l>La peste sálvanos, sálvanos.</l>
-                 <l>La peste a Tebas ya toca.</l>
-                 <l>¡Salva, salva la ciudad!</l>
-                 <l>¡Edipo, Edipo, Edipo!</l>
-                 <l>Tebas muere, Tebas muere, se muere de peste.</l>
-                 <l>De la peste salva, salva, Edipo, la urbe muriente.</l>
-                 <l>De la peste líbranos, Edipo. Libra, Edipo, la ciudad.</l>
+                 <l>¡Edipo, Edipo, Edipo!</l><lb/>
+                 <l>La peste nos <unclear reason="inaudible"><add cause="fuente_traduccion">viene</add></unclear>,<lb/> 
+                    a Tebas la peste <unclear reason="inaudible"><add cause="fuente_traduccion">la lleva</add></unclear>.</l><lb/>
+                 <l>La peste sálvanos, sálvanos.</l><lb/>
+                 <l>La peste a Tebas ya toca.</l><lb/>
+                 <l>¡Salva, salva la ciudad!</l><lb/>
+                 <l>¡Edipo, Edipo, Edipo!</l><lb/>
+                 <l>Tebas muere, Tebas muere, se muere de peste.</l><lb/>
+                 <l>De la peste salva, salva, Edipo, la urbe muriente.</l><lb/>
+                 <l>De la peste líbranos, Edipo. Libra, Edipo, la ciudad.</l><lb/>
               </p>
-           </sp>
-           </spGrp>
+           </sp><lb/>
            
-           <spGrp>           
+                      <spGrp>           
 
            <sp who="#Ed.">
               <speaker>Edipo</speaker>
@@ -369,11 +374,13 @@
                  no puede levantar la cabeza del fondo del sangriento torbellino que la revuelve.
               </p>
            </sp>
-              
-           <sp who="#Coro">
-              <speaker>Coro</speaker>
-              <l corresp="#F-vers-lat">La peste evítanos, Edipo. Libra, Edipo, la ciudad.</l>
-           </sp>
+                         
+                         <sp who="#Coro">
+                            <speaker>Coro</speaker><lb/>
+                            <p corresp="#F-vers-lat">
+                               <l>La peste evítanos, Edipo. Libra, Edipo, la ciudad.</l><lb/>
+                            </p>
+                         </sp>
               
            <sp who="#Sac.">
               <speaker>Sacerdote</speaker>
@@ -384,8 +391,10 @@
            </sp>
               
            <sp who="#Coro">
-              <speaker>Coro</speaker>
-              <l corresp="#F-vers-lat">La peste evítanos, Edipo. Libra, Edipo, la ciudad.</l>
+              <speaker>Coro</speaker><lb/>
+              <p corresp="#F-vers-lat">
+                 <l>La peste evítanos, Edipo. Libra, Edipo, la ciudad.</l><lb/>
+              </p>
            </sp>
            
             <sp who="#Sac.">
@@ -398,7 +407,7 @@
             </sp>
               
             <sp who="#Coro">
-               <speaker>Coro</speaker>
+               <speaker>Coro</speaker><lb/>
                <l corresp="#F-vers-lat">La peste evítanos, Edipo. Libra, Edipo, la ciudad.</l>
             </sp>
             
@@ -416,12 +425,12 @@
            
            <spGrp>
               <sp who="#Coro">
-                 <speaker>Coro</speaker>
+                 <speaker>Coro</speaker><lb/>
                  <p corresp="#F-vers-lat">
-                 <l>Salve, salve, Creón. Escuchamos.</l>
-                 <l>Salve, Creón. Apresúrate.</l>
-                 <l>Quienes escuchan te saludan.</l>
-                 <l>Salve, Creón, te escuchamos.</l>
+                    <l>Salve, salve, Creón. Escuchamos.</l><lb/>
+                    <l>Salve, Creón. Apresúrate.</l><lb/>
+                    <l>Quienes escuchan te saludan.</l><lb/>
+                    <l>Salve, Creón, te escuchamos.</l><lb/>
                  </p>
               </sp>
               
@@ -472,12 +481,12 @@
               </sp>
               
               <sp who="#Coro">
-                 <speaker>Coro</speaker>
+                 <speaker>Coro</speaker><lb/>
                  <p corresp="#F-vers-lat">
-                 <l>Habló el dios, te habló a ti.</l>
-                 <l>A ti el dios te lo ha dicho.</l>
-                 <l>Quienes escuchan te saludan.</l>
-                 <l>En Tebas está el asesino.</l>
+                    <l>Habló el dios, te habló a ti.</l><lb/>
+                    <l>A ti el dios te lo ha dicho.</l><lb/>
+                    <l>Quienes escuchan te saludan.</l><lb/>
+                    <l>En Tebas está el asesino.</l><lb/>
                  </p>
               </sp>              
 
@@ -505,16 +514,16 @@
            
            <spGrp>
               <sp who="#Coro_declamado">
-                 <speaker>Corifeo</speaker>
+                 <speaker>Corifeo</speaker><lb/>
                  <p>Ya está aquí quien lo descubrirá: mira a esos que vienen con el divino vate, 
-                    único entre los hombres, en quien es ingénita la verdad.</p>
+                    único entre los hombres, en quien es ingénita la verdad.</p><lb/>
               </sp>  
               
               <sp who="#Coro">
-                 <speaker>Coro</speaker>
+                 <speaker>Coro</speaker><lb/>
                  <p corresp="#F-vers-lat">
-                 <l>La voz del vidente esperamos.</l>
-                 <l>Salve, Tiresias, salve.</l>
+                    <l>La voz del vidente esperamos.</l><lb/>
+                    <l>Salve, Tiresias, salve.</l><lb/>
                  </p>
               </sp>
               
@@ -530,24 +539,24 @@
               </sp>
               
               <sp who="#Coro">
-                 <speaker>Coro</speaker>
-                 <l corresp="#F-vers-lat">¡Salve, Tiresias, vate clarísimo!</l>
-              </sp>
+                 <speaker>Coro</speaker><lb/>
+                 <l corresp="#F-vers-lat">¡Salve, Tiresias, vate clarísimo!</l><lb/>
+              </sp><lb/>
               
               <sp who="#Coro_declamado">
-                 <speaker>Mujer del coro</speaker>
-                 <l>Dinos qué dice la verdad.</l>
-              </sp>
+                 <speaker>Mujer del coro</speaker><lb/>
+                 <l>Dinos qué dice la verdad.</l><lb/>
+              </sp><lb/>
               
               <sp who="#Coro_declamado">
-                 <speaker>Hombre del coro</speaker>
-                 <l>Dínoslo, vate clarísimo.</l>
-              </sp> 
+                 <speaker>Hombre del coro</speaker><lb/>
+                 <l>Dínoslo, vate clarísimo.</l><lb/>
+              </sp><lb/>
               
               <sp who="#Coro">
-                 <speaker>Coro</speaker>
+                 <speaker>Coro</speaker><lb/>
                  <l corresp="#F-vers-lat">¡Habla, docto vidente!</l>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Tir.">
                  <speaker>Tiresias</speaker>
@@ -670,7 +679,7 @@
               </sp>
               
               <sp who="#Coro">
-                 <speaker>Coro</speaker>
+                 <speaker>Coro</speaker><lb/>
                  <l><gap reason="inaudible"></gap></l>
                  <l>A Tebas la peste la <unclear reason="inaudible">lleva</unclear>.</l>
                  <l>De la peste, sálvanos, sálvanos.</l>
@@ -695,11 +704,11 @@
            
            <spGrp>
               <sp who="#Coro">
-                 <speaker>Coro</speaker>
+                 <speaker>Coro</speaker><lb/>
                  <p corresp="#F-vers-lat">
-                 <l>¡Gloria, gloria, gloria!</l>
-                 <l><gap reason="inaudible"></gap>.</l>
-                 <l>¡Gloria, gloria, gloria!</l>
+                    <l>¡Gloria, gloria, gloria!</l><lb/>
+                    <l><gap reason="inaudible"></gap>.</l><lb/>
+                    <l>¡Gloria, gloria, gloria!</l><lb/>
                  </p>
               </sp>
               
@@ -712,10 +721,10 @@
               </sp>
               
               <sp who="#Coro">
-                 <speaker>Coro</speaker>
+                 <speaker>Coro</speaker><lb/>
                  <p corresp="#F-vers-lat">
-                 <l>¡Salve, salve, la esposa de Edipo!</l>
-                 <l>¡Gloria, gloria, gloria!</l>
+                    <l>¡Salve, salve, la esposa de Edipo!</l><lb/>
+                    <l>¡Gloria, gloria, gloria!</l><lb/>
                  </p>
               </sp>
               
@@ -815,7 +824,7 @@
                  <p>
                     Un criado, que fue el único que se salvó.
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Ed.">
                  <speaker>Edipo</speaker>
@@ -899,17 +908,17 @@
            
            <spGrp>
               <sp who="#Coro">
-                 <speaker>Coro</speaker>
+                 <speaker>Coro</speaker><lb/>
                  <p corresp="#F-vers-lat">
-                 <l>¡Gloria, gloria, gloria!</l>
-                 <l>A ti, reina Yocasta,</l>
-                 <l>En Tebas pestilente.</l>
-                 <l>¡Gloria, gloria, gloria!</l>
-                 <l>En Tebas pestilente,</l>
-                 <l>Gloria, reina nuestra.</l>
-                 <l>Salve, salve, esposa de Edipo.</l>
-                 <l>¡Gloria, gloria, gloria!</l>
-                 <l>¡Gloria, gloria, gloria!</l>
+                    <l>¡Gloria, gloria, gloria!</l><lb/>
+                    <l>A ti, reina Yocasta,</l><lb/>
+                    <l>En Tebas pestilente.</l><lb/>
+                    <l>¡Gloria, gloria, gloria!</l><lb/>
+                    <l>En Tebas pestilente,</l><lb/>
+                    <l>Gloria, reina nuestra.</l><lb/>
+                    <l>Salve, salve, esposa de Edipo.</l><lb/>
+                    <l>¡Gloria, gloria, gloria!</l><lb/>
+                    <l>¡Gloria, gloria, gloria!</l><lb/>
                  </p>
               </sp>
            </spGrp>
@@ -1035,14 +1044,14 @@
                  <p>
                     ¿Vive aún ese pastor para que yo pueda verlo?
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Yoc.">
                  <speaker>Yocasta</speaker>
                  <p>
                     ¡Ay, ay, infortunado!
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Ed.">
                  <speaker>Edipo</speaker>
@@ -1061,7 +1070,7 @@
            
            <spGrp>
               <sp who="#Coro">
-                 <speaker>Coro</speaker>
+                 <speaker>Coro</speaker><lb/>
                  <p corresp="#F-vers-lat">
                  <l>He aquí al pastor omnisciente,</l>
                  <l>Nuncio de cosas espantables.</l>
@@ -1077,14 +1086,14 @@
               </sp>
               
               <sp who="#Coro">
-                 <speaker>Coro femenino</speaker>
+                 <speaker>Coro femenino</speaker><lb/>
                  <p corresp="#F-vers-lat">
                  <l>He aquí al pastor omnisciente,</l>
                  <l>Nuncio de cosas espantables.</l>
                  </p>
               </sp>
               <sp who="#Coro">
-                 <speaker>Coro masculino</speaker>
+                 <speaker>Coro masculino</speaker><lb/>
                  <p corresp="#F-vers-lat">
                  <l>El pastor, el pastor omnisciente.</l>
                  </p>
@@ -1237,63 +1246,63 @@
                  <p>
                     ¿Es que fue ella misma la que te lo entregó?
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Criado">
                  <speaker>Criado</speaker>
                  <p>
                     Sí, rey.
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Ed.">
                  <speaker>Edipo</speaker>
                  <p>
                     ¿Y para que?
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Criado">
                  <speaker>Criado</speaker>
                  <p>
                     Para que lo matara...
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Ed.">
                  <speaker>Edipo</speaker>
                  <p>
                     —¿Y lo había <subst cause="adaptacion"><del>parido</del><add>engendrado</add></subst> la infeliz?
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Criado">
                  <speaker>Criado</speaker>
                  <p>
                     ...por temor de funestos oráculos.
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Ed.">
                  <speaker>Edipo</speaker>
                  <p>
                     ¿Cuáles?
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Criado">
                  <speaker>Criado</speaker>
                  <p>
                     Se decía que él había de matar a sus padres.
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Ed.">
                  <speaker>Edipo</speaker>
                  <p>
                     —¿Y cómo se lo entregaste este <subst cause="adaptacion"><del>viejo</del><add>anciano</add></subst>?
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Criado">
                  <speaker>Criado</speaker>
@@ -1302,7 +1311,7 @@
                     Pero éste lo conservó para los mayores males; porque si eres ese a quien éste se refiere, 
                     considérate el más infortunado de los hombres.
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Ed.">
                  <speaker>Edipo</speaker>
@@ -1311,63 +1320,63 @@
                     por quienes no debían haberle dado el ser, contrajo <unclear reason="inaudible"><add cause="fuente_traduccion"></add>relaciones</unclear> 
                     con quienes le estaban prohibidas y mató a quien no debía.
                  </p>
-              </sp>
+              </sp><lb/>
               
            </spGrp>
            
            <spGrp>
               
               <sp who="#Coro">
-                 <speaker>Coro</speaker>
+                 <speaker>Coro</speaker><lb/>
                  <p corresp="#F-vers-lat">
-                 <l>Muerto Pólibo</l>
-                 <l>Muerto el anciano Pólibo.</l>
-                 <l>No fue de Edipo genitor,</l>
-                 <l>No lo fue, no lo fue.</l>
-                 <l>Padre falso por ti <unclear reason="faded"><add>no</add></unclear> lo fue.</l>
+                    <l>Muerto Pólibo</l><lb/>
+                    <l>Muerto el anciano Pólibo.</l><lb/>
+                    <l>No fue de Edipo genitor,</l><lb/>
+                    <l>No lo fue, no lo fue.</l><lb/>
+                    <l>Padre falso por ti <unclear reason="faded"><add>no</add></unclear> lo fue.</l><lb/>
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Coro">
-                 <speaker>Voz masculina</speaker>
+                 <speaker>Voz masculina</speaker><lb/>
                  <p corresp="#F-vers-lat">
-                 <l>—Un alto dios genitor fue de Edipo con ninfa de bosque</l>
-                 <l><unclear reason="inaudible">duras nuevas contrarias</unclear></l>
-                 <l><gap reason="faded"></gap> sueño que urge, con paso presuroso,</l>
-                 <l>Su pena ejemplar, rey desventurado.</l>
-                 <l>Le fuerza a <gap reason="faded"></gap> al afortunado</l>
-                 <l>Estando muy bajo con frío y trabajo</l>
-                 <l>Llegaste a la cima que el <unclear reason="inaudible">contento</unclear> anima</l>
+                    <l>Un alto dios genitor fue de Edipo con ninfa de bosque</l><lb/>
+                    <l><unclear reason="inaudible">duras nuevas contrarias</unclear></l><lb/>
+                    <l><gap reason="faded"></gap> sueño que urge, con paso presuroso,</l><lb/>
+                    <l>Su pena ejemplar, rey desventurado.</l><lb/>
+                    <l>Le fuerza a <gap reason="faded"></gap> al afortunado</l><lb/>
+                    <l>Estando muy bajo con frío y trabajo</l><lb/>
+                    <l>Llegaste a la cima que el <unclear reason="inaudible">contento</unclear> anima</l><lb/>
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Coro">
-                 <speaker>Voz femenina</speaker>
-                 <l>El monstruo venciste las garras en <unclear reason="inaudible">dudas</unclear></l>
-                 <l>Del enigma triste libraste a las dudas.</l>
-              </sp>
+                 <speaker>Voz femenina</speaker><lb/>
+                 <l>El monstruo venciste las garras en <unclear reason="inaudible">dudas</unclear></l><lb/>
+                 <l>Del enigma triste libraste a las dudas.</l><lb/>
+              </sp><lb/>
               
               <sp who="#Coro">
-                 <speaker>Voz masculina</speaker>
-                 <l>Como torres nuevas tu frío <unclear reason="inaudible">saldado</unclear>,</l>
-                 <l>Salvación a Tebas en donde has reinado.</l>
-              </sp>
+                 <speaker>Voz masculina</speaker><lb/>
+                 <l>Como torres nuevas tu frío <unclear reason="inaudible">saldado</unclear>,</l><lb/>
+                 <l>Salvación a Tebas en donde has reinado.</l><lb/>
+              </sp><lb/>
               
               <sp who="#Coro">
-                 <speaker>Voz femenina</speaker>
-                 <l>Y ahora habrá que <unclear reason="inaudible">darle de</unclear> algún miserable que sufra igual pena que tú.</l>
-                 <l>Habrá condena que iguale al abismo <unclear reason="inaudible">que presagia el</unclear> crimen.</l>
-                 <l>En que a un tiempo mismo <unclear reason="inaudible">le ha sido libre</unclear></l>
-                 <l>En un vientre te ha hecho hijo, padre, esposo,</l>
-                 <l><unclear reason="inaudible">como anuncia el lecho que</unclear> otorgó reposo.</l>
-              </sp>
+                 <speaker>Voz femenina</speaker><lb/>
+                 <l>Y ahora habrá que <unclear reason="inaudible">darle de</unclear> algún miserable que sufra igual pena que tú.</l><lb/>
+                 <l>Habrá condena que iguale al abismo <unclear reason="inaudible">que presagia el</unclear> crimen.</l><lb/>
+                 <l>En que a un tiempo mismo <unclear reason="inaudible">le ha sido libre</unclear></l><lb/>
+                 <l>En un vientre te ha hecho hijo, padre, esposo,</l><lb/>
+                 <l><unclear reason="inaudible">como anuncia el lecho que</unclear> otorgó reposo.</l><lb/>
+              </sp><lb/>
               
               <sp who="#Coro">
-                 <speaker>Coro</speaker>
+                 <speaker>Coro</speaker><lb/>
                  <p corresp="#F-vers-lat">
                  <l>El hijo de Layo y Yocasta.</l>
                  </p>
-              </sp>
+              </sp><lb/>
            </spGrp>
         </div>
         
@@ -1379,7 +1388,7 @@
                  <speaker>Narrador</speaker>
                  <p>Un mensajero viene a anunciar al pueblo de Tebas, nuevas y más tremendas desdichas. 
                     El rey está aniquilado. Quiere que todos sepan que es él el asesino maldito. El parricida. El delirante.</p>
-              </sp>
+              </sp><lb/>
            </spGrp>
            
            <spGrp>
@@ -1389,11 +1398,11 @@
                     Oh, vosotros, que fuiste de esta tierra favorecidos siempre
                     Cómo <unclear reason="inaudible">veis</unclear> de gemir y qué sucesos vais a ver y a escuchar.                    
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Coro">
-                 <speaker>Coro</speaker>
-                 <l>Qué nos vienes a anunciar.</l>
+                 <speaker>Coro</speaker><lb/>
+                 <l>Qué nos vienes a anunciar.</l><lb/>
               </sp>
               
               <sp who="#Mens.">
@@ -1401,11 +1410,11 @@
                  <p>
                     Una desgracia. Lo diré brevemente. Yocasta ha muerto.
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Coro">
-                 <speaker>Coro</speaker>
-                 <l>Oh, desventurada. ¿Quién ha sido la causa de su muerte?</l>
+                 <speaker>Coro</speaker><lb/>
+                 <l>Oh, desventurada. ¿Quién ha sido la causa de su muerte?</l><lb/>
               </sp>
               
               <sp who="#Mens.">
@@ -1417,7 +1426,7 @@
                     <unclear reason="inaudible">ya hace un tiempo</unclear><gap reason="inaudible"></gap> aquella unión de que le sentenciaba el que a su propio padre hubiera muerto.
                     El rey que aún estaba corriendo de un lado para otro, buscaba a su mujer, que no lo era, sino era a la vez, 
                     era su madre y era también la madre de sus hijos.
-                 </p>
+                 </p><lb/><lb/>
                  
                  <p>
                     Algún sueño divino le <unclear reason="inaudible">informó</unclear> y entonces entre gritos espantosos, cual si viera de pronto la verdad, 
@@ -1426,7 +1435,7 @@
                     Al verla así, tembló de horror Edipo. Soltó la cuerda y al venir al suelo la desgraciada sucedió la cosa más horrible. 
                     Después de haber arrancado del traje de Yocasta los broches de oro, se sacó los ojos con ellos prometiendo que no vería más los espantosos males que
                     <unclear reason="inaudible">ocurrió</unclear> y las <unclear reason="inaudible">desdichas</unclear> que <unclear reason="inaudible">causaba su mal</unclear>.
-                 </p>
+                 </p><lb/><lb/>
                  
                  <p>
                     Y que sumido por siempre en las tinieblas no vería tampoco a quienes él jamás quería ver ni más contemplarían aquellos que anunciaba contemplar.
@@ -1435,7 +1444,7 @@
                     Le corría un reguero de sangre por el rostro y lo que fueron ojos de sus órbitas como un torrente oscuro le emanaba. 
                     Y el hado venturoso llevó hasta ayer el nombre del <unclear reason="inaudible">orgullo</unclear>. 
                     Desde ayer no hay un mal del que él carezca, que llame cual que llame, crimen, llanto, vergüenza, muerte, oprobio y desventura.
-                 </p>
+                 </p><lb/><lb/>
               </sp>
               
               <sp who="#Ed.">
@@ -1443,12 +1452,12 @@
                  <p>
                     ¡Ay, ay! ¡Ay, ay! ¡Infeliz de mí! ¿Dónde estoy con mi desdicha? ¿Adónde vuela mi vibrante voz? ¡Oh, demonio! ¿Dónde me has precipitado?
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Coro">
-                 <speaker>Coro</speaker>
+                 <speaker>Coro</speaker><lb/>
                  <p corresp="#F-vers-lat">
-                 <l>Oh, qué espantosa la miseria humana.</l>
+                    <l>Oh, qué espantosa la miseria humana.</l><lb/>
                  </p>
               </sp>
               
@@ -1460,19 +1469,19 @@
                     Cómo criasteis en mí una hermosura que no era más que envoltura de maldades! ¡por los dioses!, echadme, ocultadme en alguna parte; 
                     matadme o arrojadme al mar, donde jamás me podáis ver.
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Coro_declamado">
-                 <speaker>Corifeo</speaker>
+                 <speaker>Corifeo</speaker><lb/>
                  <p corresp="#F-vers-lat" change="#Mens.">
                     muerta está la divina cabeza de Yocasta
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Coro">
-                 <speaker>Coro</speaker>
-                 <l>Sangre, sangre sombría <unclear reason="inaudible">resbala</unclear></l>
-                 <l>Sangre negra, sangre oscura la tierra recibe.</l>
+                 <speaker>Coro</speaker><lb/>
+                 <l>Sangre, sangre sombría <unclear reason="inaudible">resbala</unclear></l><lb/>
+                 <l>Sangre negra, sangre oscura la tierra recibe.</l><lb/>
               </sp>
               
               <sp who="#Mens.">
@@ -1480,12 +1489,12 @@
                  <p>
                     Edipo llora y se maldice, <unclear reason="inaudible">a grandes voces</unclear> se maldice.
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Coro">
-                 <speaker>Coro</speaker>
-                 <l>Sangre oscura la tierra recibe.</l>
-              </sp>
+                 <speaker>Coro</speaker><lb/>
+                 <l>Sangre oscura la tierra recibe.</l><lb/>
+              </sp><lb/>
               
               <sp who="#Ed.">
                  <speaker>Edipo</speaker>
@@ -1497,39 +1506,39 @@
                     alcancéis mejor vida que el padre que os ha engendrado.
                     Oh, Creonte, llévame, pues, de aquí ya.
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Cre.">
                  <speaker>Creonte</speaker>
                  <p>Sigue, <subst cause="adaptacion"><del>pues</del><add>Edipo</add></subst>, y apártate de las niñas.
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Ed.">
                  <speaker>Edipo</speaker>
                  <p>
                     De ninguna manera las apartes de mí.
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Cre.">
                  <speaker>Creonte</speaker>
                  <p>
                     En todo no quieras disponer; porque aquello en que has dispuesto no resultó bien para tu vida.
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Coro">
-                 <speaker>Coro</speaker>
+                 <speaker>Coro</speaker><lb/>
                  <p corresp="#F-vers-lat">
-                 <l>Mirad al rey Edipo.</l>
-                 <l>En pena monstruoso,</l>
-                 <l>Su cruel infortunio.</l>
-                 <l>Edipo el rey enceguecido,</l>
-                 <l>Rey parricida, mísero Edipo,</l>
-                 <l>Adivino de enigmas, ciego, ciego, ciego.</l>
+                    <l>Mirad al rey Edipo.</l><lb/>
+                    <l>En pena monstruoso,</l><lb/>
+                    <l>Su cruel infortunio.</l><lb/>
+                    <l>Edipo el rey enceguecido,</l><lb/>
+                    <l>Rey parricida, mísero Edipo,</l><lb/>
+                    <l>Adivino de enigmas, ciego, ciego, ciego.</l><lb/>
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Ed.">
                  <speaker>Edipo</speaker>
@@ -1540,16 +1549,16 @@
                     <subst cause="adaptacion"><del>debes</del><add>debeis</add></subst> pensar con la consideración puesta siempre en el último día, 
                     y no juzgar feliz a nadie antes de que llegue al término de su vida sin haber sufrido ninguna desgracia. 
                  </p>
-              </sp>
+              </sp><lb/>
               
               <sp who="#Coro">
-                 <speaker>Coro</speaker>
+                 <speaker>Coro</speaker><lb/>
                  <p corresp="#F-vers-lat">
-                 <l>Rey Edipo, la luz de tus ojos lloramos.</l>
-                 <l>Rey Edipo, rey Edipo, Edipo</l>
-                 <l>¡Edipo!</l>
+                    <l>Rey Edipo, la luz de tus ojos lloramos.</l><lb/>
+                    <l>Rey Edipo, rey Edipo, Edipo</l><lb/>
+                    <l>¡Edipo!</l><lb/>
                  </p>
-              </sp>
+              </sp><lb/>
            </spGrp>
         </div>
       </body>
